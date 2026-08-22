@@ -1,79 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://neeshukumar.github.io/NeeshuLearningHub/</loc>
+         <loc>https://PrajapatiNeeshu.github.io/NeeshuLearningHub/</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
-         <loc>https://neeshukumar.github.io/NeeshuLearningHub/api-testing/api-fundamentals/</loc>
+         <loc>https://PrajapatiNeeshu.github.io/NeeshuLearningHub/contact/</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
-         <loc>https://neeshukumar.github.io/NeeshuLearningHub/api-testing/rest-concepts/</loc>
+         <loc>https://PrajapatiNeeshu.github.io/NeeshuLearningHub/api-testing/api-fundamentals/</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
-         <loc>https://neeshukumar.github.io/NeeshuLearningHub/api-testing/testing-tools/</loc>
+         <loc>https://PrajapatiNeeshu.github.io/NeeshuLearningHub/api-testing/rest-concepts/</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
-         <loc>https://neeshukumar.github.io/NeeshuLearningHub/aws/aws-basics/</loc>
+         <loc>https://PrajapatiNeeshu.github.io/NeeshuLearningHub/api-testing/testing-tools/</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
-         <loc>https://neeshukumar.github.io/NeeshuLearningHub/aws/ec2-fundamentals/</loc>
+         <loc>https://PrajapatiNeeshu.github.io/NeeshuLearningHub/aws/aws-basics/</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
-         <loc>https://neeshukumar.github.io/NeeshuLearningHub/aws/s3-essentials/</loc>
+         <loc>https://PrajapatiNeeshu.github.io/NeeshuLearningHub/aws/ec2-fundamentals/</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
-         <loc>https://neeshukumar.github.io/NeeshuLearningHub/devsecops/cicd-security/</loc>
+         <loc>https://PrajapatiNeeshu.github.io/NeeshuLearningHub/aws/s3-essentials/</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
-         <loc>https://neeshukumar.github.io/NeeshuLearningHub/devsecops/devsecops-intro/</loc>
+         <loc>https://PrajapatiNeeshu.github.io/NeeshuLearningHub/devsecops/cicd-security/</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
-         <loc>https://neeshukumar.github.io/NeeshuLearningHub/interviews/automation-interview/</loc>
+         <loc>https://PrajapatiNeeshu.github.io/NeeshuLearningHub/devsecops/devsecops-intro/</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
-         <loc>https://neeshukumar.github.io/NeeshuLearningHub/interviews/qa-interview/</loc>
+         <loc>https://PrajapatiNeeshu.github.io/NeeshuLearningHub/interviews/automation-interview/</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
-         <loc>https://neeshukumar.github.io/NeeshuLearningHub/playwright/advanced-selectors/</loc>
+         <loc>https://PrajapatiNeeshu.github.io/NeeshuLearningHub/interviews/qa-interview/</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
-         <loc>https://neeshukumar.github.io/NeeshuLearningHub/playwright/best-practices/</loc>
+         <loc>https://PrajapatiNeeshu.github.io/NeeshuLearningHub/playwright/advanced-selectors/</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
-         <loc>https://neeshukumar.github.io/NeeshuLearningHub/playwright/playwright-basics/</loc>
+         <loc>https://PrajapatiNeeshu.github.io/NeeshuLearningHub/playwright/best-practices/</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
-         <loc>https://neeshukumar.github.io/NeeshuLearningHub/resources/learning-path/</loc>
+         <loc>https://PrajapatiNeeshu.github.io/NeeshuLearningHub/playwright/playwright-basics/</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
-         <loc>https://neeshukumar.github.io/NeeshuLearningHub/resources/tools-and-references/</loc>
+         <loc>https://PrajapatiNeeshu.github.io/NeeshuLearningHub/resources/learning-path/</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
-         <loc>https://neeshukumar.github.io/NeeshuLearningHub/security/common-vulnerabilities/</loc>
+         <loc>https://PrajapatiNeeshu.github.io/NeeshuLearningHub/resources/tools-and-references/</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
-         <loc>https://neeshukumar.github.io/NeeshuLearningHub/security/owasp-top-10/</loc>
+         <loc>https://PrajapatiNeeshu.github.io/NeeshuLearningHub/security/common-vulnerabilities/</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
-         <loc>https://neeshukumar.github.io/NeeshuLearningHub/security/security-basics/</loc>
+         <loc>https://PrajapatiNeeshu.github.io/NeeshuLearningHub/security/owasp-top-10/</loc>
+         <lastmod>2026-08-22</lastmod>
+    </url>
+    <url>
+         <loc>https://PrajapatiNeeshu.github.io/NeeshuLearningHub/security/security-basics/</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
 </urlset>
