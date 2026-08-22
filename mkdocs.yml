@@ -110,6 +110,7 @@ nav:
       - REST Concepts: api-testing/rest-concepts.md
       - Testing Tools: api-testing/testing-tools.md
   - 🔒 Security Testing:
+      - Security Roadmap: security/security-roadmap.md
       - Security Basics: security/security-basics.md
       - OWASP Top 10: security/owasp-top-10.md
       - Common Vulnerabilities: security/common-vulnerabilities.md
