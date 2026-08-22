@@ -58,6 +58,8 @@ KEEP LEARNING
 
 Learn how computers, storage, memory, operating systems, applications, and users work together. Understand files and permissions, virtualization, troubleshooting, and the difference between local and network resources.
 
+Read the detailed [Fundamental IT Skills](01-fundamental-it-skills.md) notes.
+
 **Checkpoint:** Explain what happens from pressing the power button to opening a web application, and identify where confidentiality, integrity, and availability can fail.
 
 ## 2. Operating Systems

@@ -111,6 +111,7 @@ nav:
       - Testing Tools: api-testing/testing-tools.md
   - 🔒 Security Testing:
       - Security Roadmap: security/security-roadmap.md
+      - 1. Fundamental IT Skills: security/01-fundamental-it-skills.md
       - Security Basics: security/security-basics.md
       - OWASP Top 10: security/owasp-top-10.md
       - Common Vulnerabilities: security/common-vulnerabilities.md
