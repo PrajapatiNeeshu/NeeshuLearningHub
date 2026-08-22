@@ -1,0 +1,437 @@
+/* ============================================
+   NEESHU LEARNING HUB - Custom Styling
+   ============================================ */
+
+/* Root Variables */
+:root {
+  --nlh-primary: #3b82f6;
+  --nlh-primary-dark: #1e40af;
+  --nlh-accent: #fbbf24;
+  --nlh-success: #10b981;
+  --nlh-danger: #ef4444;
+  --nlh-secondary: #8b5cf6;
+}
+
+/* ============================================
+   HEADER ANIMATIONS & STYLING
+   ============================================ */
+
+.md-header {
+  background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 50%, #0f766e 100%);
+  box-shadow: 0 8px 32px rgba(59, 130, 246, 0.3);
+  animation: headerSlideDown 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes headerSlideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.md-header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+  animation: shimmer 3s infinite;
+  pointer-events: none;
+}
+
+@keyframes shimmer {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+.md-header__title {
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  animation: titleGlow 2s ease-in-out infinite;
+}
+
+@keyframes titleGlow {
+  0%, 100% { text-shadow: 0 0 10px rgba(251, 191, 36, 0.3); }
+  50% { text-shadow: 0 0 20px rgba(251, 191, 36, 0.6); }
+}
+
+/* Logo Animation */
+.md-logo {
+  animation: logoBounce 2s ease-in-out infinite;
+}
+
+@keyframes logoBounce {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+/* ============================================
+   NAVIGATION ANIMATIONS
+   ============================================ */
+
+.md-nav__link {
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  position: relative;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
+}
+
+.md-nav__link:hover,
+.md-nav__link--active {
+  color: #fbbf24;
+  transform: translateX(4px);
+}
+
+.md-nav__link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #fbbf24, #3b82f6);
+  transition: width 0.3s ease;
+}
+
+.md-nav__link:hover::after,
+.md-nav__link--active::after {
+  width: 100%;
+}
+
+/* ============================================
+   FOOTER STYLING
+   ============================================ */
+
+.md-footer {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f766e 100%);
+  border-top: 2px solid #3b82f6;
+  box-shadow: 0 -4px 20px rgba(59, 130, 246, 0.2);
+  animation: footerSlideUp 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes footerSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.md-footer__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  padding: 3rem 0;
+}
+
+@media (max-width: 768px) {
+  .md-footer__inner {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.md-footer__item {
+  animation: fadeInUp 0.8s ease-out backwards;
+}
+
+.md-footer__item:nth-child(2) { animation-delay: 0.1s; }
+.md-footer__item:nth-child(3) { animation-delay: 0.2s; }
+.md-footer__item:nth-child(4) { animation-delay: 0.3s; }
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.md-footer-meta {
+  background: rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(59, 130, 246, 0.3);
+  padding: 1.5rem 0;
+}
+
+/* ============================================
+   FOOTER LINKS & COPYRIGHT
+   ============================================ */
+
+.md-footer__link {
+  color: #93c5fd;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.md-footer__link:hover {
+  color: #fbbf24;
+  transform: translateX(2px);
+}
+
+.md-copyright {
+  color: #64748b;
+  font-size: 0.85rem;
+}
+
+/* ============================================
+   CONTACT SECTION STYLING
+   ============================================ */
+
+.contact-card {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
+  border: 2px solid rgba(59, 130, 246, 0.3);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation: contactCardIn 0.6s ease-out;
+}
+
+@keyframes contactCardIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.contact-card:hover {
+  border-color: #fbbf24;
+  box-shadow: 0 8px 32px rgba(59, 130, 246, 0.4);
+  transform: translateY(-4px);
+}
+
+.contact-header {
+  font-size: 1.5rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, #fbbf24, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1.5rem;
+  animation: headerPulse 2s ease-in-out infinite;
+}
+
+@keyframes headerPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.contact-item {
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 3px solid #fbbf24;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  animation: itemSlideIn 0.5s ease-out backwards;
+}
+
+.contact-item:nth-child(1) { animation-delay: 0.1s; }
+.contact-item:nth-child(2) { animation-delay: 0.2s; }
+.contact-item:nth-child(3) { animation-delay: 0.3s; }
+.contact-item:nth-child(4) { animation-delay: 0.4s; }
+
+@keyframes itemSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.contact-item:hover {
+  background: rgba(59, 130, 246, 0.1);
+  border-left-color: #3b82f6;
+  transform: translateX(4px);
+}
+
+.contact-label {
+  font-weight: 700;
+  color: #fbbf24;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.contact-value {
+  color: #e0e7ff;
+  font-size: 1rem;
+  word-break: break-word;
+}
+
+.contact-value a {
+  color: #60a5fa;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.contact-value a:hover {
+  color: #fbbf24;
+  text-shadow: 0 0 8px rgba(59, 130, 246, 0.5);
+}
+
+.experience-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #fbbf24, #f59e0b);
+  color: #1e3a8a;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  animation: badgePop 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes badgePop {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* ============================================
+   BUTTON ANIMATIONS
+   ============================================ */
+
+.md-button {
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.md-button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.5s, height 0.5s;
+}
+
+.md-button:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+.md-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.4);
+}
+
+/* ============================================
+   CODE BLOCK ANIMATIONS
+   ============================================ */
+
+.highlight {
+  background: linear-gradient(135deg, rgba(30, 58, 138, 0.8) 0%, rgba(139, 92, 246, 0.1) 100%) !important;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  border-radius: 8px;
+  animation: codeBlockFadeIn 0.6s ease-out;
+}
+
+@keyframes codeBlockFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ============================================
+   CARD & CONTENT ANIMATIONS
+   ============================================ */
+
+.md-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  border-radius: 12px;
+  padding: 1.5rem;
+  animation: cardSlideIn 0.6s ease-out;
+  transition: all 0.3s ease;
+}
+
+@keyframes cardSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.md-card:hover {
+  border-color: #fbbf24;
+  box-shadow: 0 8px 32px rgba(59, 130, 246, 0.2);
+}
+
+/* ============================================
+   RESPONSIVE ADJUSTMENTS
+   ============================================ */
+
+@media (max-width: 768px) {
+  .md-header {
+    padding: 0.5rem 0;
+  }
+
+  .contact-info {
+    grid-template-columns: 1fr;
+  }
+
+  .md-footer__inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================================
+   LOADING ANIMATION
+   ============================================ */
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.loading {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}

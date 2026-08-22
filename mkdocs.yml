@@ -1,28 +1,36 @@
 site_name: Neeshu Learning Hub
-site_description: Professional Learning Portal for QA Automation
+site_description: Professional Learning Portal for QA Automation Engineers
 site_author: Neeshu Kumar
-site_url: https://neeshukumar.github.io/NeeshuLearningHub/
+site_url: https://PrajapatiNeeshu.github.io/NeeshuLearningHub/
+repo_url: https://github.com/PrajapatiNeeshu/NeeshuLearningHub
+repo_name: GitHub Repository
 
 theme:
   name: material
   logo: assets/logo.svg
   favicon: assets/favicon.ico
+  custom_dir: overrides
   
   palette:
-    # Dark theme
+    # Dark theme (default)
     - scheme: slate
       primary: blue
-      accent: cyan
+      accent: amber
       toggle:
         icon: material/brightness-7
-        name: Switch to light mode
+        name: 🌙 Switch to light mode
+      
     # Light theme
     - scheme: default
       primary: blue
-      accent: cyan
+      accent: amber
       toggle:
         icon: material/brightness-4
-        name: Switch to dark mode
+        name: ☀️ Switch to dark mode
+
+  font:
+    text: Roboto
+    code: Roboto Mono
 
   features:
     - navigation.instant
@@ -32,18 +40,28 @@ theme:
     - navigation.tabs.sticky
     - navigation.tracking
     - navigation.expand
+    - navigation.indexes
     - toc.integrate
+    - toc.follow
     - content.code.copy
     - content.code.select
     - content.code.annotate
+    - content.tooltips
     - search.highlight
     - search.suggest
     - search.share
+    - header.autohide
+    - announce.dismiss
 
 markdown_extensions:
   - pymdownx.highlight:
       use_pygments: true
-  - pymdownx.superfences
+      auto_title: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.inlinehilite
   - pymdownx.details
   - pymdownx.tabbed:
@@ -56,39 +74,65 @@ markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
+  - tables
+  - footnotes
   - toc:
       permalink: true
 
 plugins:
   - search:
       lang: en
-  - glightbox
+      pipeline:
+        - stemmer
+        - stop
+  - glightbox:
+      auto_load: true
+      skip_classes:
+        - no-lightbox
   - mermaid2
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/PrajapatiNeeshu
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/neeshukumar
+      name: LinkedIn
+    - icon: fontawesome/solid/envelope
+      link: mailto:neeshulwc@gmail.com
+      name: Email
+
+  generator: false
+
+extra_css:
+  - assets/stylesheets/custom.css
+
 nav:
-  - Home: index.md
-  - AWS:
+  - 🏠 Home: index.md
+  - ☁️ AWS:
       - AWS Basics: aws/aws-basics.md
       - EC2 Fundamentals: aws/ec2-fundamentals.md
       - S3 Essentials: aws/s3-essentials.md
-  - Playwright:
+  - 🎭 Playwright:
       - Playwright Basics: playwright/playwright-basics.md
       - Advanced Selectors: playwright/advanced-selectors.md
       - Best Practices: playwright/best-practices.md
-  - API Testing:
+  - 🔌 API Testing:
       - API Fundamentals: api-testing/api-fundamentals.md
       - REST Concepts: api-testing/rest-concepts.md
       - Testing Tools: api-testing/testing-tools.md
-  - Security Testing:
+  - 🔒 Security Testing:
       - Security Basics: security/security-basics.md
       - OWASP Top 10: security/owasp-top-10.md
       - Common Vulnerabilities: security/common-vulnerabilities.md
-  - DevSecOps:
+  - 🚀 DevSecOps:
       - DevSecOps Intro: devsecops/devsecops-intro.md
       - CI/CD Security: devsecops/cicd-security.md
-  - Interview Questions:
+  - 💼 Interview Questions:
       - QA Interview: interviews/qa-interview.md
       - Automation Interview: interviews/automation-interview.md
-  - Resources:
+  - 📚 Resources:
       - Learning Path: resources/learning-path.md
       - Tools & References: resources/tools-and-references.md
+  - 💬 Contact Us: contact.md

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" width="220" height="60" class="nlh-logo">
+  <defs>
+    <style>
+      @keyframes shield-pulse {
+        0%, 100% { stroke-opacity: 1; }
+        50% { stroke-opacity: 0.7; }
+      }
+      @keyframes checkmark-draw {
+        0% { stroke-dashoffset: 50; }
+        100% { stroke-dashoffset: 0; }
+      }
+      .shield { animation: shield-pulse 2s ease-in-out infinite; }
+      .checkmark { 
+        animation: checkmark-draw 1.5s ease-out;
+        stroke-dasharray: 50;
+      }
+      .logo-text { animation: fadeInScale 1s ease-out; }
+      @keyframes fadeInScale {
+        0% { opacity: 0; transform: scale(0.95); }
+        100% { opacity: 1; transform: scale(1); }
+      }
+    </style>
+  </defs>
+  
+  <!-- Shield -->
+  <g transform="translate(10, 6)">
+    <path 
+      class="shield"
+      d="M20,2 L40,9 L40,23 C40,36 31,48 20,53 C9,48 0,36 0,23 L0,9 Z" 
+      fill="none" 
+      stroke="#60a5fa" 
+      strokeWidth="2.5" 
+      strokeLinejoin="round"
+    />
+    
+    <!-- Checkmark -->
+    <path 
+      class="checkmark"
+      d="M10,26 L18,34 L30,16" 
+      fill="none" 
+      stroke="#fbbf24" 
+      strokeWidth="3" 
+      strokeLinecap="round" 
+      strokeLinejoin="round"
+    />
+  </g>
+  
+  <!-- Main Text -->
+  <text 
+    class="logo-text"
+    x="65" y="28" 
+    fontFamily="system-ui, -apple-system, sans-serif" 
+    fontSize="18" 
+    fontWeight="900" 
+    fill="#ffffff" 
+    letterSpacing="0.5"
+  >
+    Neeshu
+  </text>
+  
+  <!-- Subtitle -->
+  <text 
+    class="logo-text"
+    x="65" y="46" 
+    fontFamily="system-ui, -apple-system, sans-serif" 
+    fontSize="12" 
+    fontWeight="600" 
+    fill="#93c5fd" 
+    letterSpacing="0.3"
+  >
+    Learning Hub
+  </text>
+</svg>

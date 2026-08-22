@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block htmltitle %}
+  {% if page and page.meta and page.meta.title %}
+    <title>{{ page.meta.title }}</title>
+  {% elif page and page.title and not page.is_homepage %}
+    <title>{{ page.title }} - {{ config.site_name }}</title>
+  {% else %}
+    <title>{{ config.site_name }}</title>
+  {% endif %}
+{% endblock %}
+
+{% block libs %}
+  {{ super() }}
+{% endblock %}
+
+{% block header %}
+  <header class="md-header" data-md-component="header">
+    <nav class="md-header__inner md-grid" aria-label="Header">
+      <a href="{{ config.site_url | default(base_url) }}" title="{{ config.site_name }}" class="md-logo" aria-label="{{ config.site_name }}" data-md-component="logo">
+        {% include "partials/logo.html" %}
+      </a>
+      <label class="md-header__button md-icon" for="__drawer">
+        {% include ".icons/material/menu.svg" %}
+      </label>
+      <div class="md-header__title" data-md-component="header-title">
+        <div class="md-header__ellipsis">
+          <div class="md-header__topic">
+            <span class="md-ellipsis">
+              {{ config.site_name }}
+            </span>
+          </div>
+          {% if page and page.title and not page.is_homepage %}
+            <div class="md-header__topic">
+              <span class="md-ellipsis">
+                {{ page.title }}
+              </span>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+      {% if config.repo_url %}
+        <div class="md-header__source">
+          {% include "partials/source.html" %}
+        </div>
+      {% endif %}
+    </nav>
+  </header>
+{% endblock %}
