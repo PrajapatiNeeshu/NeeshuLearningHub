@@ -1,0 +1,94 @@
+site_name: Neeshu Learning Hub
+site_description: Professional Learning Portal for QA Automation
+site_author: Neeshu Kumar
+site_url: https://neeshukumar.github.io/NeeshuLearningHub/
+
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/favicon.ico
+  
+  palette:
+    # Dark theme
+    - scheme: slate
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+    # Light theme
+    - scheme: default
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+
+  features:
+    - navigation.instant
+    - navigation.instant.loading
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tracking
+    - navigation.expand
+    - toc.integrate
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - search.highlight
+    - search.suggest
+    - search.share
+
+markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+plugins:
+  - search:
+      lang: en
+  - glightbox
+  - mermaid2
+
+nav:
+  - Home: index.md
+  - AWS:
+      - AWS Basics: aws/aws-basics.md
+      - EC2 Fundamentals: aws/ec2-fundamentals.md
+      - S3 Essentials: aws/s3-essentials.md
+  - Playwright:
+      - Playwright Basics: playwright/playwright-basics.md
+      - Advanced Selectors: playwright/advanced-selectors.md
+      - Best Practices: playwright/best-practices.md
+  - API Testing:
+      - API Fundamentals: api-testing/api-fundamentals.md
+      - REST Concepts: api-testing/rest-concepts.md
+      - Testing Tools: api-testing/testing-tools.md
+  - Security Testing:
+      - Security Basics: security/security-basics.md
+      - OWASP Top 10: security/owasp-top-10.md
+      - Common Vulnerabilities: security/common-vulnerabilities.md
+  - DevSecOps:
+      - DevSecOps Intro: devsecops/devsecops-intro.md
+      - CI/CD Security: devsecops/cicd-security.md
+  - Interview Questions:
+      - QA Interview: interviews/qa-interview.md
+      - Automation Interview: interviews/automation-interview.md
+  - Resources:
+      - Learning Path: resources/learning-path.md
+      - Tools & References: resources/tools-and-references.md
