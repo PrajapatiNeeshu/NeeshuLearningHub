@@ -112,6 +112,15 @@ nav:
   - 🔒 Security Testing:
       - Security Roadmap: security/security-roadmap.md
       - 1. Fundamental IT Skills: security/01-fundamental-it-skills.md
+      - 2. Operating Systems: security/02-operating-systems.md
+      - 3. Networking Knowledge: security/03-networking-knowledge.md
+      - 4. Security Skills & Knowledge: security/04-security-skills-and-knowledge.md
+      - 5. Attack Types & Differences: security/05-attack-types-and-differences.md
+      - 6. Tools, Frameworks & Incident Response: security/06-tools-frameworks-incident-response.md
+      - 7. Cloud Skills & Knowledge: security/07-cloud-skills-and-knowledge.md
+      - 8. Programming, Certifications & CTFs: security/08-programming-certifications-ctfs.md
+      - 9. CISO Career Advice & Industry Insights: security/09-ciso-career-advice-and-industry-insights.md
+      - 10. End-to-End Career Roadmap: security/10-end-to-end-career-roadmap.md
       - Security Basics: security/security-basics.md
       - OWASP Top 10: security/owasp-top-10.md
       - Common Vulnerabilities: security/common-vulnerabilities.md
