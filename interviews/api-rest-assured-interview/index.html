@@ -1,0 +1,2267 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Professional Learning Portal for QA Automation Engineers">
+      
+      
+        <meta name="author" content="Neeshu Kumar">
+      
+      
+        <link rel="canonical" href="https://PrajapatiNeeshu.github.io/NeeshuLearningHub/interviews/api-rest-assured-interview/">
+      
+      
+        <link rel="prev" href="../automation-interview/">
+      
+      
+        <link rel="next" href="../../jobs/uae-jobs/">
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.14">
+    
+    
+      
+        <title>API Testing & Rest Assured - Neeshu Learning Hub</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.fad675c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="amber">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#api-testing-and-rest-assured-interview-questions" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Neeshu Learning Hub" class="md-header__button md-logo" aria-label="Neeshu Learning Hub" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Neeshu Learning Hub
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              API Testing & Rest Assured
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="amber"  aria-label="🌙 Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="🌙 Switch to light mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="amber"  aria-label="☀️ Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="☀️ Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/PrajapatiNeeshu/NeeshuLearningHub" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repository
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  🏠 Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../aws/aws-basics/" class="md-tabs__link">
+          
+  
+    
+  
+  ☁️ AWS
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../playwright/playwright-basics/" class="md-tabs__link">
+          
+  
+    
+  
+  🎭 Playwright
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../api-testing/api-fundamentals/" class="md-tabs__link">
+          
+  
+    
+  
+  🔌 API Testing
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../security/security-roadmap/" class="md-tabs__link">
+          
+  
+    
+  
+  🔒 Security Testing
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../devsecops/devsecops-intro/" class="md-tabs__link">
+          
+  
+    
+  
+  🚀 DevSecOps
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../qa-interview/" class="md-tabs__link">
+          
+  
+    
+  
+  💼 Interview Questions
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../jobs/uae-jobs/" class="md-tabs__link">
+          
+  
+    
+  
+  💼 Jobs
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../resources/learning-path/" class="md-tabs__link">
+          
+  
+    
+  
+  📚 Resources
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../contact/" class="md-tabs__link">
+        
+  
+    
+  
+  💬 Contact Us
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Neeshu Learning Hub" class="md-nav__button md-logo" aria-label="Neeshu Learning Hub" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    Neeshu Learning Hub
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/PrajapatiNeeshu/NeeshuLearningHub" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repository
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🏠 Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    ☁️ AWS
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            ☁️ AWS
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aws/aws-basics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Basics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aws/ec2-fundamentals/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EC2 Fundamentals
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aws/s3-essentials/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    S3 Essentials
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    🎭 Playwright
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            🎭 Playwright
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../playwright/playwright-basics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Playwright Basics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../playwright/advanced-selectors/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Advanced Selectors
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../playwright/best-practices/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Best Practices
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    🔌 API Testing
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            🔌 API Testing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api-testing/api-fundamentals/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    API Fundamentals
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api-testing/rest-concepts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    REST Concepts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api-testing/testing-tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Testing Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    🔒 Security Testing
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            🔒 Security Testing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/security-roadmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Security Roadmap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/security-basics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Security Basics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/owasp-top-10/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OWASP Top 10
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/common-vulnerabilities/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Common Vulnerabilities
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    🚀 DevSecOps
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            🚀 DevSecOps
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../devsecops/devsecops-intro/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DevSecOps Intro
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../devsecops/cicd-security/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CI/CD Security
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    💼 Interview Questions
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            💼 Interview Questions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../qa-interview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    QA Interview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../automation-interview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Automation Interview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    API Testing & Rest Assured
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    API Testing & Rest Assured
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#api-fundamentals" class="md-nav__link">
+    <span class="md-ellipsis">
+      API Fundamentals
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="API Fundamentals">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#q1-what-is-an-api-and-why-is-api-testing-important" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q1: What is an API, and why is API testing important?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q2-what-are-the-different-types-of-api-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q2: What are the different types of API testing?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q3-what-are-the-main-components-of-an-api-request" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q3: What are the main components of an API request?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q4-what-is-the-difference-between-query-parameters-and-path-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q4: What is the difference between query parameters and path parameters?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q5-what-are-http-methods-give-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q5: What are HTTP methods? Give examples.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q6-what-is-the-difference-between-put-and-patch" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q6: What is the difference between PUT and PATCH?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q7-can-get-replace-put-for-resource-creation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q7: Can GET replace PUT for resource creation?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q8-what-is-the-difference-between-rest-and-soap" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q8: What is the difference between REST and SOAP?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q9-what-are-common-http-status-codes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q9: What are common HTTP status codes?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q10-what-is-the-difference-between-401-and-403" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q10: What is the difference between 401 and 403?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q11-what-is-the-difference-between-201-and-204" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q11: What is the difference between 201 and 204?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q12-what-is-the-difference-between-4xx-and-5xx-errors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q12: What is the difference between 4xx and 5xx errors?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#authentication-and-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Authentication and Validation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Authentication and Validation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#q13-which-api-authentication-techniques-do-you-know" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q13: Which API authentication techniques do you know?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q14-what-is-the-difference-between-basic-auth-oauth-and-bearer-token-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q14: What is the difference between Basic Auth, OAuth, and Bearer Token authentication?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q15-what-is-the-difference-between-oauth-10-and-oauth-20" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q15: What is the difference between OAuth 1.0 and OAuth 2.0?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q16-what-is-a-jwt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q16: What is a JWT?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q17-what-is-json-schema-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q17: What is JSON Schema validation?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q18-what-should-you-validate-in-an-api-response" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q18: What should you validate in an API response?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rest-assured" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rest Assured
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Rest Assured">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#q19-what-is-rest-assured-and-how-is-it-used" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q19: What is Rest Assured, and how is it used?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q20-how-do-you-set-up-rest-assured-in-a-maven-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q20: How do you set up Rest Assured in a Maven project?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q21-how-do-you-send-a-get-request-using-rest-assured" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q21: How do you send a GET request using Rest Assured?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q22-how-do-you-send-a-post-request-with-a-request-body" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q22: How do you send a POST request with a request body?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q23-how-do-you-pass-query-and-path-parameters-in-rest-assured" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q23: How do you pass query and path parameters in Rest Assured?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q24-how-do-you-validate-status-code-headers-and-body" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q24: How do you validate status code, headers, and body?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q25-what-is-a-request-specification" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q25: What is a request specification?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q26-how-do-you-pass-authentication-in-rest-assured" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q26: How do you pass authentication in Rest Assured?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q27-how-do-you-deserialize-a-response-in-rest-assured" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q27: How do you deserialize a response in Rest Assured?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q28-how-do-you-perform-schema-validation-in-rest-assured" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q28: How do you perform schema validation in Rest Assured?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q29-how-do-you-extract-a-value-from-a-response" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q29: How do you extract a value from a response?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q30-how-do-you-chain-api-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q30: How do you chain API tests?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q31-rest-assured-versus-postman-what-is-the-difference" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q31: Rest Assured versus Postman: what is the difference?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q32-what-utilities-belong-in-an-api-automation-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q32: What utilities belong in an API automation framework?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#framework-and-cicd-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Framework and CI/CD Design
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Framework and CI/CD Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#q33-how-would-you-design-an-api-automation-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q33: How would you design an API automation framework?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q34-how-do-you-generate-and-manage-test-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q34: How do you generate and manage test data?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q35-how-do-you-run-rest-assured-tests-in-jenkins-or-another-cicd-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q35: How do you run Rest Assured tests in Jenkins or another CI/CD pipeline?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q36-how-do-you-handle-api-rate-limits-and-retries" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q36: How do you handle API rate limits and retries?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q37-how-do-you-troubleshoot-an-api-response-that-takes-one-minute" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q37: How do you troubleshoot an API response that takes one minute?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q38-how-frequently-should-api-regression-tests-run" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q38: How frequently should API regression tests run?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q39-what-is-an-api-test-case-for-an-amazon-or-other-government-service" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q39: What is an API test case for an Amazon or other government service?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#q40-what-makes-a-good-api-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q40: What makes a good API test?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    💼 Jobs
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            💼 Jobs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../jobs/uae-jobs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UAE Jobs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    📚 Resources
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            📚 Resources
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/learning-path/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Learning Path
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/tools-and-references/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tools & References
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    💬 Contact Us
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="api-testing-and-rest-assured-interview-questions">API Testing and Rest Assured Interview Questions<a class="headerlink" href="#api-testing-and-rest-assured-interview-questions" title="Permanent link">&para;</a></h1>
+<p>This guide covers API fundamentals, HTTP, authentication, Rest Assured, test design, and CI/CD topics commonly discussed in API testing interviews.</p>
+<h2 id="api-fundamentals">API Fundamentals<a class="headerlink" href="#api-fundamentals" title="Permanent link">&para;</a></h2>
+<h3 id="q1-what-is-an-api-and-why-is-api-testing-important">Q1: What is an API, and why is API testing important?<a class="headerlink" href="#q1-what-is-an-api-and-why-is-api-testing-important" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> An Application Programming Interface (API) is a contract that allows software components to communicate. API testing validates that the contract, business rules, data, security, and error handling work correctly without depending on a user interface.</p>
+<p>API testing is valuable because it is fast, stable, supports early testing, provides broad coverage, and catches integration defects before UI testing.</p>
+<h3 id="q2-what-are-the-different-types-of-api-testing">Q2: What are the different types of API testing?<a class="headerlink" href="#q2-what-are-the-different-types-of-api-testing" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> Common types include:</p>
+<ul>
+<li>Functional and integration testing</li>
+<li>Regression and smoke testing</li>
+<li>Contract and schema validation</li>
+<li>Performance, load, and stress testing</li>
+<li>Security and authorization testing</li>
+<li>Negative and error handling testing</li>
+<li>End-to-end workflow testing</li>
+</ul>
+<h3 id="q3-what-are-the-main-components-of-an-api-request">Q3: What are the main components of an API request?<a class="headerlink" href="#q3-what-are-the-main-components-of-an-api-request" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> An API request contains the HTTP method, URL, path, query parameters, headers, authentication, and optional request body. The body is commonly sent as JSON, XML, form data, or multipart data.</p>
+<h3 id="q4-what-is-the-difference-between-query-parameters-and-path-parameters">Q4: What is the difference between query parameters and path parameters?<a class="headerlink" href="#q4-what-is-the-difference-between-query-parameters-and-path-parameters" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> A path parameter identifies a resource and is part of the URL path, such as <code>/users/42</code>. A query parameter filters or modifies a request, such as <code>/users?role=admin</code>.</p>
+<h3 id="q5-what-are-http-methods-give-examples">Q5: What are HTTP methods? Give examples.<a class="headerlink" href="#q5-what-are-http-methods-give-examples" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Typical purpose</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td>Read data</td>
+<td><code>GET /users/42</code></td>
+</tr>
+<tr>
+<td>POST</td>
+<td>Create a resource</td>
+<td><code>POST /users</code></td>
+</tr>
+<tr>
+<td>PUT</td>
+<td>Replace a resource</td>
+<td><code>PUT /users/42</code></td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td>Partially update a resource</td>
+<td><code>PATCH /users/42</code></td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>Delete a resource</td>
+<td><code>DELETE /users/42</code></td>
+</tr>
+<tr>
+<td>HEAD</td>
+<td>Return headers without a body</td>
+<td><code>HEAD /users/42</code></td>
+</tr>
+<tr>
+<td>OPTIONS</td>
+<td>Report supported operations</td>
+<td><code>OPTIONS /users</code></td>
+</tr>
+<tr>
+<td>TRACE</td>
+<td>Echo the request for diagnostic purposes</td>
+<td><code>TRACE /users</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="q6-what-is-the-difference-between-put-and-patch">Q6: What is the difference between PUT and PATCH?<a class="headerlink" href="#q6-what-is-the-difference-between-put-and-patch" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> PUT generally replaces the complete resource and is idempotent. PATCH updates only selected fields and may not be idempotent, depending on the API implementation.</p>
+<h3 id="q7-can-get-replace-put-for-resource-creation">Q7: Can GET replace PUT for resource creation?<a class="headerlink" href="#q7-can-get-replace-put-for-resource-creation" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> No. GET should be safe and read-only. Creating a resource with GET violates HTTP semantics, can be triggered unintentionally by crawlers or caches, and makes the API harder to reason about. POST or PUT should be used according to the API contract.</p>
+<h3 id="q8-what-is-the-difference-between-rest-and-soap">Q8: What is the difference between REST and SOAP?<a class="headerlink" href="#q8-what-is-the-difference-between-rest-and-soap" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> REST is an architectural style that commonly uses HTTP resources and JSON, while SOAP is a protocol based on XML envelopes and formal contracts such as WSDL. REST is usually simpler and lighter; SOAP provides built-in standards for enterprise messaging, transactions, and security.</p>
+<h3 id="q9-what-are-common-http-status-codes">Q9: What are common HTTP status codes?<a class="headerlink" href="#q9-what-are-common-http-status-codes" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>Successful request</td>
+</tr>
+<tr>
+<td>201</td>
+<td>Resource created</td>
+</tr>
+<tr>
+<td>202</td>
+<td>Request accepted for processing</td>
+</tr>
+<tr>
+<td>204</td>
+<td>Successful request with no response body</td>
+</tr>
+<tr>
+<td>400</td>
+<td>Invalid request</td>
+</tr>
+<tr>
+<td>401</td>
+<td>Missing or invalid authentication</td>
+</tr>
+<tr>
+<td>403</td>
+<td>Authenticated but not authorized</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Resource not found</td>
+</tr>
+<tr>
+<td>405</td>
+<td>HTTP method not allowed</td>
+</tr>
+<tr>
+<td>409</td>
+<td>Resource conflict</td>
+</tr>
+<tr>
+<td>429</td>
+<td>Too many requests</td>
+</tr>
+<tr>
+<td>500</td>
+<td>Internal server error</td>
+</tr>
+<tr>
+<td>502</td>
+<td>Bad gateway</td>
+</tr>
+<tr>
+<td>503</td>
+<td>Service unavailable</td>
+</tr>
+</tbody>
+</table>
+<h3 id="q10-what-is-the-difference-between-401-and-403">Q10: What is the difference between 401 and 403?<a class="headerlink" href="#q10-what-is-the-difference-between-401-and-403" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> A <code>401</code> response means the client has not supplied valid authentication credentials. A <code>403</code> response means the server knows the client identity but that identity does not have permission to perform the operation.</p>
+<h3 id="q11-what-is-the-difference-between-201-and-204">Q11: What is the difference between 201 and 204?<a class="headerlink" href="#q11-what-is-the-difference-between-201-and-204" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> <code>201 Created</code> confirms that a new resource was created and commonly includes its location or representation. <code>204 No Content</code> confirms success but intentionally returns no response body, often after an update or delete.</p>
+<h3 id="q12-what-is-the-difference-between-4xx-and-5xx-errors">Q12: What is the difference between 4xx and 5xx errors?<a class="headerlink" href="#q12-what-is-the-difference-between-4xx-and-5xx-errors" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> A <code>4xx</code> error indicates a problem with the client request, credentials, or permissions. A <code>5xx</code> error indicates that the server or an upstream dependency failed while handling a valid request.</p>
+<h2 id="authentication-and-validation">Authentication and Validation<a class="headerlink" href="#authentication-and-validation" title="Permanent link">&para;</a></h2>
+<h3 id="q13-which-api-authentication-techniques-do-you-know">Q13: Which API authentication techniques do you know?<a class="headerlink" href="#q13-which-api-authentication-techniques-do-you-know" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> Common techniques include Basic Authentication, API keys, Bearer tokens, OAuth 2.0, JWT, mutual TLS, and signed requests. Tests should verify missing, expired, malformed, underprivileged, and revoked credentials.</p>
+<h3 id="q14-what-is-the-difference-between-basic-auth-oauth-and-bearer-token-authentication">Q14: What is the difference between Basic Auth, OAuth, and Bearer Token authentication?<a class="headerlink" href="#q14-what-is-the-difference-between-basic-auth-oauth-and-bearer-token-authentication" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> Basic Auth sends a username and password, normally over HTTPS. A Bearer token grants access to whoever possesses the token. OAuth 2.0 is an authorization framework for obtaining scoped access tokens without sharing the user's password with every client.</p>
+<h3 id="q15-what-is-the-difference-between-oauth-10-and-oauth-20">Q15: What is the difference between OAuth 1.0 and OAuth 2.0?<a class="headerlink" href="#q15-what-is-the-difference-between-oauth-10-and-oauth-20" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> OAuth 1.0 signs requests with a client secret and token secret. OAuth 2.0 uses access tokens and defined grant flows, scopes, and refresh tokens. OAuth 2.0 is more flexible, but the authorization server and client must implement its security guidance correctly.</p>
+<h3 id="q16-what-is-a-jwt">Q16: What is a JWT?<a class="headerlink" href="#q16-what-is-a-jwt" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> A JSON Web Token contains a header, claims payload, and signature. The claims can carry identity, expiry, and permissions. The signature provides integrity, but the payload is not encrypted by default, so secrets must never be placed in it.</p>
+<h3 id="q17-what-is-json-schema-validation">Q17: What is JSON Schema validation?<a class="headerlink" href="#q17-what-is-json-schema-validation" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> JSON Schema defines the expected structure, data types, required fields, formats, and allowed values in a response. Schema validation catches contract changes even when individual field assertions still pass.</p>
+<h3 id="q18-what-should-you-validate-in-an-api-response">Q18: What should you validate in an API response?<a class="headerlink" href="#q18-what-should-you-validate-in-an-api-response" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> Validate the status code, headers, content type, response time, schema, required fields, values, data types, business rules, and correlation identifiers. Also verify that sensitive fields are not exposed.</p>
+<h2 id="rest-assured">Rest Assured<a class="headerlink" href="#rest-assured" title="Permanent link">&para;</a></h2>
+<h3 id="q19-what-is-rest-assured-and-how-is-it-used">Q19: What is Rest Assured, and how is it used?<a class="headerlink" href="#q19-what-is-rest-assured-and-how-is-it-used" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> Rest Assured is a Java library for testing REST APIs. It provides a readable DSL for building requests, sending them, extracting responses, and asserting status codes, headers, body fields, and schemas.</p>
+<h3 id="q20-how-do-you-set-up-rest-assured-in-a-maven-project">Q20: How do you set up Rest Assured in a Maven project?<a class="headerlink" href="#q20-how-do-you-set-up-rest-assured-in-a-maven-project" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> Add the Rest Assured and test framework dependencies to <code>pom.xml</code>, then configure the base URI and test lifecycle in the test project.</p>
+<div class="highlight"><span class="filename">XML</span><pre><span></span><code><span class="nt">&lt;dependency&gt;</span>
+<span class="w">  </span><span class="nt">&lt;groupId&gt;</span>io.rest-assured<span class="nt">&lt;/groupId&gt;</span>
+<span class="w">  </span><span class="nt">&lt;artifactId&gt;</span>rest-assured<span class="nt">&lt;/artifactId&gt;</span>
+<span class="w">  </span><span class="nt">&lt;version&gt;</span>5.5.6<span class="nt">&lt;/version&gt;</span>
+<span class="w">  </span><span class="nt">&lt;scope&gt;</span>test<span class="nt">&lt;/scope&gt;</span>
+<span class="nt">&lt;/dependency&gt;</span>
+</code></pre></div>
+<p>The exact version should be managed centrally and kept current with the project's supported Java version.</p>
+<h3 id="q21-how-do-you-send-a-get-request-using-rest-assured">Q21: How do you send a GET request using Rest Assured?<a class="headerlink" href="#q21-how-do-you-send-a-get-request-using-rest-assured" title="Permanent link">&para;</a></h3>
+<div class="highlight"><span class="filename">Java</span><pre><span></span><code><span class="kn">import static</span><span class="w"> </span><span class="nn">io.restassured.RestAssured.given</span><span class="p">;</span>
+<span class="kn">import static</span><span class="w"> </span><span class="nn">org.hamcrest.Matchers.equalTo</span><span class="p">;</span>
+
+<span class="n">given</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">baseUri</span><span class="p">(</span><span class="s">"https://api.example.com"</span><span class="p">)</span>
+<span class="w">    </span><span class="p">.</span><span class="na">pathParam</span><span class="p">(</span><span class="s">"id"</span><span class="p">,</span><span class="w"> </span><span class="mi">42</span><span class="p">)</span>
+<span class="p">.</span><span class="na">when</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="s">"/users/{id}"</span><span class="p">)</span>
+<span class="p">.</span><span class="na">then</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">statusCode</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
+<span class="w">    </span><span class="p">.</span><span class="na">body</span><span class="p">(</span><span class="s">"id"</span><span class="p">,</span><span class="w"> </span><span class="n">equalTo</span><span class="p">(</span><span class="mi">42</span><span class="p">));</span>
+</code></pre></div>
+<h3 id="q22-how-do-you-send-a-post-request-with-a-request-body">Q22: How do you send a POST request with a request body?<a class="headerlink" href="#q22-how-do-you-send-a-post-request-with-a-request-body" title="Permanent link">&para;</a></h3>
+<div class="highlight"><span class="filename">Java</span><pre><span></span><code><span class="n">String</span><span class="w"> </span><span class="n">requestBody</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">"""</span>
+<span class="s">    {"name":"Neeshu","role":"qa-engineer"}</span>
+<span class="s">    """</span><span class="p">;</span>
+
+<span class="n">given</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">baseUri</span><span class="p">(</span><span class="s">"https://api.example.com"</span><span class="p">)</span>
+<span class="w">    </span><span class="p">.</span><span class="na">contentType</span><span class="p">(</span><span class="s">"application/json"</span><span class="p">)</span>
+<span class="w">    </span><span class="p">.</span><span class="na">body</span><span class="p">(</span><span class="n">requestBody</span><span class="p">)</span>
+<span class="p">.</span><span class="na">when</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">post</span><span class="p">(</span><span class="s">"/users"</span><span class="p">)</span>
+<span class="p">.</span><span class="na">then</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">statusCode</span><span class="p">(</span><span class="mi">201</span><span class="p">)</span>
+<span class="w">    </span><span class="p">.</span><span class="na">body</span><span class="p">(</span><span class="s">"name"</span><span class="p">,</span><span class="w"> </span><span class="n">equalTo</span><span class="p">(</span><span class="s">"Neeshu"</span><span class="p">));</span>
+</code></pre></div>
+<h3 id="q23-how-do-you-pass-query-and-path-parameters-in-rest-assured">Q23: How do you pass query and path parameters in Rest Assured?<a class="headerlink" href="#q23-how-do-you-pass-query-and-path-parameters-in-rest-assured" title="Permanent link">&para;</a></h3>
+<div class="highlight"><span class="filename">Java</span><pre><span></span><code><span class="n">given</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">queryParam</span><span class="p">(</span><span class="s">"role"</span><span class="p">,</span><span class="w"> </span><span class="s">"admin"</span><span class="p">)</span>
+<span class="w">    </span><span class="p">.</span><span class="na">pathParam</span><span class="p">(</span><span class="s">"userId"</span><span class="p">,</span><span class="w"> </span><span class="mi">42</span><span class="p">)</span>
+<span class="p">.</span><span class="na">when</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="s">"/users/{userId}/permissions"</span><span class="p">)</span>
+<span class="p">.</span><span class="na">then</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">statusCode</span><span class="p">(</span><span class="mi">200</span><span class="p">);</span>
+</code></pre></div>
+<h3 id="q24-how-do-you-validate-status-code-headers-and-body">Q24: How do you validate status code, headers, and body?<a class="headerlink" href="#q24-how-do-you-validate-status-code-headers-and-body" title="Permanent link">&para;</a></h3>
+<div class="highlight"><span class="filename">Java</span><pre><span></span><code><span class="n">given</span><span class="p">()</span>
+<span class="p">.</span><span class="na">when</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="s">"/users/42"</span><span class="p">)</span>
+<span class="p">.</span><span class="na">then</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">statusCode</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
+<span class="w">    </span><span class="p">.</span><span class="na">header</span><span class="p">(</span><span class="s">"Content-Type"</span><span class="p">,</span><span class="w"> </span><span class="n">org</span><span class="p">.</span><span class="na">hamcrest</span><span class="p">.</span><span class="na">Matchers</span><span class="p">.</span><span class="na">containsString</span><span class="p">(</span><span class="s">"application/json"</span><span class="p">))</span>
+<span class="w">    </span><span class="p">.</span><span class="na">body</span><span class="p">(</span><span class="s">"active"</span><span class="p">,</span><span class="w"> </span><span class="n">equalTo</span><span class="p">(</span><span class="kc">true</span><span class="p">));</span>
+</code></pre></div>
+<h3 id="q25-what-is-a-request-specification">Q25: What is a request specification?<a class="headerlink" href="#q25-what-is-a-request-specification" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> A <code>RequestSpecification</code> stores reusable request settings such as the base URI, common headers, authentication, content type, and logging. It avoids repeating setup in every test.</p>
+<div class="highlight"><span class="filename">Java</span><pre><span></span><code><span class="kn">import static</span><span class="w"> </span><span class="nn">io.restassured.builder.RequestSpecBuilder.*</span><span class="p">;</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">io.restassured.specification.RequestSpecification</span><span class="p">;</span>
+
+<span class="n">RequestSpecification</span><span class="w"> </span><span class="n">requestSpec</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">RequestSpecBuilder</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">setBaseUri</span><span class="p">(</span><span class="s">"https://api.example.com"</span><span class="p">)</span>
+<span class="w">    </span><span class="p">.</span><span class="na">setContentType</span><span class="p">(</span><span class="s">"application/json"</span><span class="p">)</span>
+<span class="w">    </span><span class="p">.</span><span class="na">addHeader</span><span class="p">(</span><span class="s">"Accept"</span><span class="p">,</span><span class="w"> </span><span class="s">"application/json"</span><span class="p">)</span>
+<span class="w">    </span><span class="p">.</span><span class="na">build</span><span class="p">();</span>
+</code></pre></div>
+<h3 id="q26-how-do-you-pass-authentication-in-rest-assured">Q26: How do you pass authentication in Rest Assured?<a class="headerlink" href="#q26-how-do-you-pass-authentication-in-rest-assured" title="Permanent link">&para;</a></h3>
+<div class="highlight"><span class="filename">Java</span><pre><span></span><code><span class="n">given</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">auth</span><span class="p">().</span><span class="na">oauth2</span><span class="p">(</span><span class="n">System</span><span class="p">.</span><span class="na">getenv</span><span class="p">(</span><span class="s">"API_TOKEN"</span><span class="p">))</span>
+<span class="p">.</span><span class="na">when</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="s">"/profile"</span><span class="p">)</span>
+<span class="p">.</span><span class="na">then</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">statusCode</span><span class="p">(</span><span class="mi">200</span><span class="p">);</span>
+</code></pre></div>
+<p>Use environment variables or a secret manager for tokens. Do not commit credentials to source control or print them in logs.</p>
+<h3 id="q27-how-do-you-deserialize-a-response-in-rest-assured">Q27: How do you deserialize a response in Rest Assured?<a class="headerlink" href="#q27-how-do-you-deserialize-a-response-in-rest-assured" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> With Jackson or another object mapper on the classpath, use <code>extract().as(User.class)</code> to convert JSON into a Java object. Serialization converts a Java object to JSON for a request; deserialization converts a response into a Java object.</p>
+<div class="highlight"><span class="filename">Java</span><pre><span></span><code><span class="n">User</span><span class="w"> </span><span class="n">user</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">given</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="s">"/users/42"</span><span class="p">)</span>
+<span class="w">    </span><span class="p">.</span><span class="na">then</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">statusCode</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
+<span class="w">    </span><span class="p">.</span><span class="na">extract</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">as</span><span class="p">(</span><span class="n">User</span><span class="p">.</span><span class="na">class</span><span class="p">);</span>
+</code></pre></div>
+<h3 id="q28-how-do-you-perform-schema-validation-in-rest-assured">Q28: How do you perform schema validation in Rest Assured?<a class="headerlink" href="#q28-how-do-you-perform-schema-validation-in-rest-assured" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> Add the <code>json-schema-validator</code> module and compare the response with a checked-in schema.</p>
+<div class="highlight"><span class="filename">Java</span><pre><span></span><code><span class="n">then</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">body</span><span class="p">(</span><span class="n">matchesJsonSchemaInClasspath</span><span class="p">(</span><span class="s">"schemas/user.json"</span><span class="p">));</span>
+</code></pre></div>
+<h3 id="q29-how-do-you-extract-a-value-from-a-response">Q29: How do you extract a value from a response?<a class="headerlink" href="#q29-how-do-you-extract-a-value-from-a-response" title="Permanent link">&para;</a></h3>
+<div class="highlight"><span class="filename">Java</span><pre><span></span><code><span class="n">String</span><span class="w"> </span><span class="n">userId</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">given</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="s">"/users"</span><span class="p">)</span>
+<span class="w">    </span><span class="p">.</span><span class="na">then</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">statusCode</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
+<span class="w">    </span><span class="p">.</span><span class="na">extract</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">path</span><span class="p">(</span><span class="s">"data[0].id"</span><span class="p">);</span>
+</code></pre></div>
+<h3 id="q30-how-do-you-chain-api-tests">Q30: How do you chain API tests?<a class="headerlink" href="#q30-how-do-you-chain-api-tests" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> Send the first request, extract a value such as an ID or token, and use it in the next request. Keep the chain short, clean up created data, and separate independent tests so one failure does not hide other defects.</p>
+<div class="highlight"><span class="filename">Java</span><pre><span></span><code><span class="kt">int</span><span class="w"> </span><span class="n">createdId</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">given</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">body</span><span class="p">(</span><span class="s">"{\"name\":\"test-user\"}"</span><span class="p">)</span>
+<span class="w">    </span><span class="p">.</span><span class="na">contentType</span><span class="p">(</span><span class="s">"application/json"</span><span class="p">)</span>
+<span class="p">.</span><span class="na">when</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">post</span><span class="p">(</span><span class="s">"/users"</span><span class="p">)</span>
+<span class="p">.</span><span class="na">then</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">statusCode</span><span class="p">(</span><span class="mi">201</span><span class="p">)</span>
+<span class="w">    </span><span class="p">.</span><span class="na">extract</span><span class="p">().</span><span class="na">path</span><span class="p">(</span><span class="s">"id"</span><span class="p">);</span>
+
+<span class="n">given</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">pathParam</span><span class="p">(</span><span class="s">"id"</span><span class="p">,</span><span class="w"> </span><span class="n">createdId</span><span class="p">)</span>
+<span class="p">.</span><span class="na">when</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="s">"/users/{id}"</span><span class="p">)</span>
+<span class="p">.</span><span class="na">then</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="na">statusCode</span><span class="p">(</span><span class="mi">200</span><span class="p">);</span>
+</code></pre></div>
+<h3 id="q31-rest-assured-versus-postman-what-is-the-difference">Q31: Rest Assured versus Postman: what is the difference?<a class="headerlink" href="#q31-rest-assured-versus-postman-what-is-the-difference" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> Postman is useful for exploratory testing, manual requests, collections, and quick collaboration. Rest Assured is code-based, easier to review and reuse in a build, and integrates naturally with JUnit, TestNG, Maven, and CI/CD. Many teams use both.</p>
+<h3 id="q32-what-utilities-belong-in-an-api-automation-framework">Q32: What utilities belong in an API automation framework?<a class="headerlink" href="#q32-what-utilities-belong-in-an-api-automation-framework" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> Useful utilities include configuration readers, request specifications, authentication helpers, data builders, JSON and schema helpers, response extractors, logging, retry handling, test-data cleanup, reporting, and environment selection. Utilities should remove duplication without hiding important assertions.</p>
+<h2 id="framework-and-cicd-design">Framework and CI/CD Design<a class="headerlink" href="#framework-and-cicd-design" title="Permanent link">&para;</a></h2>
+<h3 id="q33-how-would-you-design-an-api-automation-framework">Q33: How would you design an API automation framework?<a class="headerlink" href="#q33-how-would-you-design-an-api-automation-framework" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> I would separate test cases, API clients or service objects, request and response models, configuration, test data, authentication, assertions, logging, and reporting. The framework should support tags such as smoke and regression, parallel execution where safe, isolated test data, and environment-specific configuration.</p>
+<h3 id="q34-how-do-you-generate-and-manage-test-data">Q34: How do you generate and manage test data?<a class="headerlink" href="#q34-how-do-you-generate-and-manage-test-data" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> Use builders or factories for valid data, boundary-value data, invalid data, and unique values. Keep test data isolated, resettable, non-sensitive, and independent of production. Generate unique IDs when parallel tests can collide.</p>
+<h3 id="q35-how-do-you-run-rest-assured-tests-in-jenkins-or-another-cicd-pipeline">Q35: How do you run Rest Assured tests in Jenkins or another CI/CD pipeline?<a class="headerlink" href="#q35-how-do-you-run-rest-assured-tests-in-jenkins-or-another-cicd-pipeline" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> Store environment settings and secrets in the CI system, install the required Java and Maven versions, run the targeted Maven profile, publish JUnit or Allure results, and retain logs and reports on failure.</p>
+<div class="highlight"><span class="filename">Bash</span><pre><span></span><code>mvn<span class="w"> </span>clean<span class="w"> </span><span class="nb">test</span><span class="w"> </span>-Dgroups<span class="o">=</span>smoke<span class="w"> </span>-Denv<span class="o">=</span>qa
+</code></pre></div>
+<p>The pipeline should fail on test failures and should never expose tokens in console output.</p>
+<h3 id="q36-how-do-you-handle-api-rate-limits-and-retries">Q36: How do you handle API rate limits and retries?<a class="headerlink" href="#q36-how-do-you-handle-api-rate-limits-and-retries" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> Assert the expected <code>429</code> behavior, honor <code>Retry-After</code> when provided, use bounded exponential backoff with jitter for transient failures, and avoid retrying validation or client errors. Retries should be observable and must not mask real defects.</p>
+<h3 id="q37-how-do-you-troubleshoot-an-api-response-that-takes-one-minute">Q37: How do you troubleshoot an API response that takes one minute?<a class="headerlink" href="#q37-how-do-you-troubleshoot-an-api-response-that-takes-one-minute" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> First reproduce it with a request ID and timing data. Check DNS, connection and TLS time, server processing time, database calls, downstream services, queues, payload size, and infrastructure metrics. Compare the same request across environments and inspect server and gateway logs before adding a client-side timeout.</p>
+<h3 id="q38-how-frequently-should-api-regression-tests-run">Q38: How frequently should API regression tests run?<a class="headerlink" href="#q38-how-frequently-should-api-regression-tests-run" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> Run fast smoke tests on every pull request, broader functional and contract tests after deployment, and scheduled full regression and performance suites. The frequency should reflect risk, execution time, and the cost of discovering a defect later.</p>
+<h3 id="q39-what-is-an-api-test-case-for-an-amazon-or-other-government-service">Q39: What is an API test case for an Amazon or other government service?<a class="headerlink" href="#q39-what-is-an-api-test-case-for-an-amazon-or-other-government-service" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> Use the official API contract and test approved sandbox data. Cover authentication, required headers, valid and invalid payloads, status codes, schema, authorization, idempotency, audit fields, rate limits, and sensitive-data handling. Never test against a production government endpoint without explicit authorization.</p>
+<h3 id="q40-what-makes-a-good-api-test">Q40: What makes a good API test?<a class="headerlink" href="#q40-what-makes-a-good-api-test" title="Permanent link">&para;</a></h3>
+<p><strong>Answer:</strong> A good API test is deterministic, independent, focused, readable, fast, secure, and valuable. It verifies both a positive business outcome and meaningful negative behavior, while producing enough diagnostics to explain a failure.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/PrajapatiNeeshu" target="_blank" rel="noopener" title="GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://linkedin.com/in/neeshukumar" target="_blank" rel="noopener" title="LinkedIn" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="mailto:neeshulwc@gmail.com" target="_blank" rel="noopener" title="Email" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l217.6 163.2c11.4 8.5 27 8.5 38.4 0l217.6-163.2c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48H48zM0 176v208c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V176L294.4 339.2a63.9 63.9 0 0 1-76.8 0L0 176z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.instant.loading", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.expand", "navigation.indexes", "toc.integrate", "toc.follow", "content.code.copy", "content.code.select", "content.code.annotate", "content.tooltips", "search.highlight", "search.suggest", "search.share", "header.autohide", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.cd18aaf1.min.js"></script>
+      
+    
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>
