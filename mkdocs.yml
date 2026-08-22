@@ -119,6 +119,9 @@ nav:
   - 💼 Interview Questions:
       - QA Interview: interviews/qa-interview.md
       - Automation Interview: interviews/automation-interview.md
+      - API Testing & Rest Assured: interviews/api-rest-assured-interview.md
+  - 💼 Jobs:
+      - UAE Jobs: jobs/uae-jobs.md
   - 📚 Resources:
       - Learning Path: resources/learning-path.md
       - Tools & References: resources/tools-and-references.md
