@@ -4,12 +4,10 @@ site_author: Neeshu Kumar
 site_url: https://PrajapatiNeeshu.github.io/NeeshuLearningHub/
 repo_url: https://github.com/PrajapatiNeeshu/NeeshuLearningHub
 repo_name: GitHub Repository
-
 theme:
   name: material
   logo: assets/logo.svg
   favicon: assets/favicon.ico
-  
   palette:
     # Dark theme (default)
     - scheme: slate
@@ -18,7 +16,6 @@ theme:
       toggle:
         icon: material/brightness-7
         name: 🌙 Switch to light mode
-      
     # Light theme
     - scheme: default
       primary: blue
@@ -26,11 +23,9 @@ theme:
       toggle:
         icon: material/brightness-4
         name: ☀️ Switch to dark mode
-
   font:
     text: Roboto
     code: Roboto Mono
-
   features:
     - navigation.instant
     - navigation.instant.loading
@@ -51,7 +46,6 @@ theme:
     - search.share
     - header.autohide
     - announce.dismiss
-
 markdown_extensions:
   - pymdownx.highlight:
       use_pygments: true
@@ -77,7 +71,6 @@ markdown_extensions:
   - footnotes
   - toc:
       permalink: true
-
 plugins:
   - search:
       lang: en
@@ -88,7 +81,6 @@ plugins:
       skip_classes:
         - no-lightbox
   - mermaid2
-
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -100,12 +92,9 @@ extra:
     - icon: fontawesome/solid/envelope
       link: mailto:neeshulwc@gmail.com
       name: Email
-
   generator: false
-
 extra_css:
   - assets/stylesheets/custom.css
-
 nav:
   - 🏠 Home: index.md
   - ☁️ AWS:
