@@ -9,7 +9,6 @@ theme:
   name: material
   logo: assets/logo.svg
   favicon: assets/favicon.ico
-  custom_dir: overrides
   
   palette:
     # Dark theme (default)
@@ -69,8 +68,8 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - admonition
   - attr_list
   - md_in_html
@@ -84,9 +83,8 @@ plugins:
       lang: en
       pipeline:
         - stemmer
-        - stop
+        - stopWordFilter
   - glightbox:
-      auto_load: true
       skip_classes:
         - no-lightbox
   - mermaid2
