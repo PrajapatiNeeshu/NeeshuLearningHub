@@ -72,33 +72,43 @@ docs/
 
 ### Local Development
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/PrajapatiNeeshu/NeeshuLearningHub.git
-cd NeeshuLearningHub
-```
+This repository is intended to be private. Do not publish repository clone URLs, source files, credentials, or deployment tokens in public documentation.
 
-2. **Create virtual environment**
+To work locally, open an authorized local checkout and continue with the setup steps below. Only GitHub users explicitly granted repository access can clone a private repository.
+
+1. **Create virtual environment**
 ```bash
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 ```
 
-3. **Install dependencies**
+2. **Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-4. **Run locally**
+3. **Run locally**
 ```bash
 mkdocs serve
 ```
 
-5. **Open in browser**
+4. **Open in browser**
 ```
 http://localhost:8000
 ```
+
+### Make the GitHub Repository Private
+
+1. Open the repository on GitHub.
+2. Select **Settings** → **General**.
+3. Scroll to **Danger Zone**.
+4. Select **Change repository visibility** → **Make private**.
+5. Confirm the repository name and the visibility change.
+
+Afterward, review **Settings** → **Collaborators** and remove anyone who should no longer have access. A private repository still allows approved collaborators to clone it; removing the clone command from this README does not block authorized cloning.
+
+If GitHub Pages is enabled, verify its visibility and plan requirements after making the repository private. Do not commit secrets as a way to protect the source; revoke and rotate any credential that may already be exposed.
 
 ---
 
