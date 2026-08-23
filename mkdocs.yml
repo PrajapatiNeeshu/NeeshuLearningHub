@@ -111,6 +111,8 @@ nav:
       - Testing Tools: api-testing/testing-tools.md
   - 🧪 Testing:
       - Python AI Automation Lab: testing/python-ai-automation.md
+  - 🤖 AI Learning:
+      - Agents, RAG & LLM Courses: ai/ai-agents-rag-llm-courses.md
   - 🔒 Security Testing:
       - Security Roadmap: security/security-roadmap.md
       - 1. Fundamental IT Skills: security/01-fundamental-it-skills.md
@@ -135,6 +137,7 @@ nav:
       - API Testing & Rest Assured: interviews/api-rest-assured-interview.md
   - 💼 Jobs:
       - UAE Jobs: jobs/uae-jobs.md
+      - Direct Apply Company Links: jobs/direct-apply.md
   - 📚 Resources:
       - Learning Path: resources/learning-path.md
       - Tools & References: resources/tools-and-references.md
