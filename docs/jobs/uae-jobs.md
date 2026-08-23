@@ -147,3 +147,182 @@ Build job-ready skills with these online learning platforms and educational reso
 8. [OpenLearn](https://open.edu)
 9. [Great Learning](https://mygreatlearning.com)
 10. [Google Digital Garage](https://learndigital.withgoogle.com/digitalgarage)
+
+## Top Multinational Companies Worldwide
+
+| Company | Sector | Headquarters | Careers |
+| --- | --- | --- | --- |
+| Apple | Technology | USA | [Apple Jobs](https://jobs.apple.com) |
+| Microsoft | Technology | USA | [Microsoft Careers](https://careers.microsoft.com) |
+| Alphabet (Google) | Technology | USA | [Google Careers](https://careers.google.com) |
+| Amazon | E-commerce / Cloud | USA | [Amazon Jobs](https://www.amazon.jobs) |
+| Samsung Electronics | Electronics | South Korea | [Samsung Careers](https://www.samsung.com/global/careers/) |
+| Toyota Motor | Automotive | Japan | [Toyota Careers](https://global.toyota/en/company/careers/) |
+| Walmart | Retail | USA | [Walmart Careers](https://careers.walmart.com) |
+| ExxonMobil | Energy | USA | [ExxonMobil Careers](https://corporate.exxonmobil.com/careers) |
+| JPMorgan Chase | Banking / Finance | USA | [JPMorgan Careers](https://careers.jpmorgan.com) |
+| Nestle | Consumer Goods | Switzerland | [Nestle Jobs](https://www.nestle.com/jobs) |
+| Unilever | Consumer Goods | UK / Netherlands | [Unilever Careers](https://www.unilever.com/careers/) |
+| Procter & Gamble | Consumer Goods | USA | [P&G Careers](https://www.pgcareers.com) |
+| Coca-Cola | Beverages | USA | [Coca-Cola Careers](https://www.coca-colacompany.com/careers) |
+| PepsiCo | Beverages / Food | USA | [PepsiCo Jobs](https://www.pepsicojobs.com) |
+| IBM | Technology / Consulting | USA | [IBM Careers](https://www.ibm.com/careers) |
+| Siemens | Industrial / Engineering | Germany | [Siemens Jobs](https://jobs.siemens.com) |
+| GE | Industrial | USA | [GE Careers](https://www.ge.com/careers) |
+| Shell | Energy | UK / Netherlands | [Shell Careers](https://www.shell.com/careers.html) |
+| Volkswagen Group | Automotive | Germany | [Volkswagen Careers](https://www.volkswagen-group.com/en/careers-15784) |
+| Sony Group | Electronics / Entertainment | Japan | [Sony Jobs](https://www.sony.com/en/SonyInfo/Jobs/) |
+| LG Electronics | Electronics | South Korea | [LG Careers](https://www.lg.com/global/careers) |
+| Huawei | Technology / Telecom | China | [Huawei Careers](https://career.huawei.com) |
+| Accenture | IT Consulting | Ireland | [Accenture Careers](https://www.accenture.com/us-en/careers) |
+| Deloitte | Professional Services | UK | [Deloitte Careers](https://www2.deloitte.com/global/en/careers.html) |
+| McKinsey & Company | Consulting | USA | [McKinsey Careers](https://www.mckinsey.com/careers) |
+| Boeing | Aerospace | USA | [Boeing Jobs](https://jobs.boeing.com) |
+| Airbus | Aerospace | France | [Airbus Careers](https://www.airbus.com/en/careers) |
+| 3M | Industrial / Materials | USA | [3M Careers](https://www.3m.com/3M/en_US/careers-us/) |
+| Johnson & Johnson | Pharma / Healthcare | USA | [J&J Careers](https://www.careers.jnj.com) |
+| Pfizer | Pharma | USA | [Pfizer Careers](https://www.pfizer.com/careers) |
+
+## FAANG and Major Technology Companies
+
+| Company | Area | Careers |
+| --- | --- | --- |
+| Meta | Social / VR / AI | [Meta Careers](https://www.metacareers.com) |
+| Apple | Hardware / Software | [Apple Jobs](https://jobs.apple.com) |
+| Amazon | E-commerce / AWS | [Amazon Jobs](https://www.amazon.jobs) |
+| Netflix | Streaming / Media | [Netflix Jobs](https://jobs.netflix.com) |
+| Google (Alphabet) | Search / Cloud / AI | [Google Careers](https://careers.google.com) |
+| Microsoft | Cloud / Enterprise Software | [Microsoft Careers](https://careers.microsoft.com) |
+
+## Cybersecurity Companies in the UAE
+
+| Company | Focus | Website / Careers |
+| --- | --- | --- |
+| Help AG (e& enterprise) | Managed Security, SOC, MDR | [Help AG Careers](https://www.helpag.com/careers) |
+| CPX Holding | Cyber defense and SOC | [CPX Careers](https://cpx.com/careers/) |
+| DTS Solution | Cyber consulting, red team, SIEM | [DTS Careers](https://www.dts-solution.com/careers/) |
+| Paramount Computer Systems | MSSP and GRC | [Paramount Careers](https://www.paramountassure.com/careers/) |
+| Intertec Systems | Managed IT and security | [Intertec Careers](https://www.intertecsystems.com/careers/) |
+| CyberKnight Technologies | Cybersecurity distribution | [CyberKnight Careers](https://www.cyberknight.tech/careers) |
+| AHAD | Offensive security and CTI | [AHAD Careers](https://www.ahad-me.com/careers) |
+| Spectrami | Cybersecurity distribution | [Spectrami Careers](https://www.spectrami.com/careers/) |
+| Wattlecorp Cybersecurity Labs | Pen-testing and VAPT | [Wattlecorp Careers](https://wattlecorp.com/careers/) |
+| EXEO | Managed cloud and cybersecurity | [EXEO Careers](https://exeo.net/careers/) |
+| Cisco | Network and security products | [Cisco Jobs](https://jobs.cisco.com) |
+| IBM Security | Enterprise security services | [IBM Careers](https://www.ibm.com/careers) |
+| Kaspersky | Endpoint and threat intelligence | [Kaspersky Careers](https://www.kaspersky.com/about/careers) |
+
+> Verify regional career pages before applying because company websites and vacancies can change. For Security SDET roles, also search LinkedIn Jobs for `UAE Security Engineer`, `SDET`, and `AppSec`.
+
+## Cybersecurity Companies in Japan
+
+| Company | Focus | Website / Careers |
+| --- | --- | --- |
+| Trend Micro | Endpoint, cloud and network security | [Trend Micro Careers](https://careers.trendmicro.com) |
+| NTT Security / NTT Data | Managed security services | [NTT Data Careers](https://www.nttdata.com/global/en/careers) |
+| Fujitsu | Enterprise security and SOC | [Fujitsu Careers](https://www.fujitsu.com/global/about/careers/) |
+| Hitachi Systems Security | MSSP, SOC and incident response | [Hitachi Systems Careers](https://www.hitachi-systems-security.com/careers/) |
+| LAC Co., Ltd. | Cybersecurity and JSOC | [LAC Recruitment](https://www.lac.co.jp/english/recruit/) |
+| NRI SecureTechnologies | Security consulting and managed services | [NRI Secure Recruitment](https://www.nri-secure.co.jp/recruit) |
+| Internet Initiative Japan (IIJ) | Network and managed security | [IIJ Careers](https://www.iij.ad.jp/en/careers/) |
+| BroadBand Security | Vulnerability diagnostics and SOC | [BBSec Recruitment](https://www.bbsec.co.jp/recruit/) |
+| Macnica Networks | Security products and SOC | [Macnica Recruitment](https://www.macnica.co.jp/en/recruit/) |
+| SoftBank / SB Technology | Enterprise security services | [SoftBank Recruitment](https://www.softbank.jp/en/corp/recruit/) |
+| Rakuten Group | Fintech and e-commerce security | [Rakuten Careers](https://corp.rakuten.co.jp/careers/) |
+| Cybozu | SaaS and product security | [Cybozu Recruitment](https://cybozu.co.jp/en/recruitment/) |
+
+## Product-Based Companies by Category
+
+The following company lists are separated by product area and are useful targets for QA automation, SDET, security testing, and AppSec roles.
+
+### Big Tech and Cloud
+
+- [Google](https://careers.google.com) · [Microsoft](https://careers.microsoft.com) · [Amazon Web Services](https://www.amazon.jobs)
+- [Meta](https://www.metacareers.com) · [Apple](https://jobs.apple.com) · [Oracle](https://www.oracle.com/careers/)
+- [SAP](https://jobs.sap.com) · [IBM](https://www.ibm.com/careers) · [Adobe](https://careers.adobe.com)
+- [Salesforce](https://www.salesforce.com/company/careers/)
+
+### SaaS and Enterprise Software
+
+- [Atlassian](https://www.atlassian.com/company/careers) · [ServiceNow](https://careers.servicenow.com) · [Workday](https://workday.wd5.myworkdayjobs.com)
+- [Snowflake](https://careers.snowflake.com) · [Databricks](https://www.databricks.com/company/careers) · [MongoDB](https://www.mongodb.com/careers)
+- [Twilio](https://www.twilio.com/en-us/company/jobs) · [HubSpot](https://www.hubspot.com/careers) · [Intuit](https://jobs.intuit.com)
+- [Zoom](https://careers.zoom.us) · [DocuSign](https://careers.docusign.com) · [Palantir](https://www.palantir.com/careers/)
+
+### Cybersecurity Products
+
+- [Palo Alto Networks](https://jobs.paloaltonetworks.com) · [CrowdStrike](https://www.crowdstrike.com/careers/) · [Fortinet](https://www.fortinet.com/corporate/about-us/careers)
+- [Zscaler](https://www.zscaler.com/careers) · [Okta](https://www.okta.com/company/careers/) · [SentinelOne](https://www.sentinelone.com/careers/)
+- [Cloudflare](https://www.cloudflare.com/careers/) · [CyberArk](https://www.cyberark.com/careers/) · [Rapid7](https://www.rapid7.com/about/careers/)
+- [Qualys](https://www.qualys.com/careers/) · [Tenable](https://www.tenable.com/careers) · [Check Point Software](https://careers.checkpoint.com)
+
+### Fintech and Payments
+
+- [Stripe](https://stripe.com/jobs) · [PayPal](https://careers.pypl.com) · [Block](https://block.xyz/careers)
+- [Adyen](https://www.adyen.com/careers) · [Klarna](https://www.klarna.com/careers/) · [Revolut](https://www.revolut.com/careers/)
+- [Wise](https://wise.jobs) · [Coinbase](https://www.coinbase.com/careers) · [Razorpay](https://razorpay.com/jobs/)
+- [PhonePe](https://www.phonepe.com/careers/)
+
+### E-commerce, Marketplace, and Travel
+
+- [Uber](https://www.uber.com/careers/) · [Airbnb](https://careers.airbnb.com) · [DoorDash](https://careers.doordash.com)
+- [Booking.com](https://careers.booking.com) · [Expedia Group](https://careers.expediagroup.com) · [Shopify](https://www.shopify.com/careers)
+- [Flipkart](https://www.flipkartcareers.com) · [Swiggy](https://careers.swiggy.com) · [Zomato](https://www.zomato.com/careers)
+- [Grab](https://grab.careers)
+
+### Media, Streaming, and Social
+
+- [Netflix](https://jobs.netflix.com) · [Spotify](https://www.lifeatspotify.com) · [Pinterest](https://www.pinterestcareers.com)
+- [Snap](https://careers.snap.com) · [LinkedIn](https://careers.linkedin.com) · [Reddit](https://www.redditinc.com/careers)
+- [ByteDance / TikTok](https://careers.tiktok.com) · [Tencent](https://careers.tencent.com)
+
+### Semiconductors and Hardware
+
+- [NVIDIA](https://www.nvidia.com/en-us/about-nvidia/careers/) · [Intel](https://jobs.intel.com) · [AMD](https://careers.amd.com)
+- [Qualcomm](https://www.qualcomm.com/company/careers) · [Cisco](https://jobs.cisco.com) · [Dell Technologies](https://jobs.dell.com)
+- [HP](https://jobs.hp.com) · [Samsung Electronics](https://www.samsung.com/global/careers/)
+
+### India Product Companies
+
+- [Freshworks](https://www.freshworks.com/company/careers/) · [Zoho](https://www.zoho.com/careers/) · [Postman](https://www.postman.com/company/careers/)
+- [BrowserStack](https://www.browserstack.com/careers) · [Chargebee](https://www.chargebee.com/careers/) · [Druva](https://www.druva.com/careers/)
+- [Icertis](https://www.icertis.com/company/careers/) · [Innovaccer](https://innovaccer.com/careers) · [Groww](https://groww.in/careers)
+- [Zerodha](https://zerodha.com/careers/) · [CRED](https://careers.cred.club) · [Infosys Finacle](https://www.infosys.com/careers.html)
+- [Meesho](https://www.meesho.io/careers) · [InMobi](https://www.inmobi.com/company/careers)
+
+### Gaming
+
+- [Epic Games](https://www.epicgames.com/site/en-US/careers) · [Riot Games](https://www.riotgames.com/en/work-with-us) · [Electronic Arts](https://www.ea.com/careers)
+- [Ubisoft](https://www.ubisoft.com/en-us/company/careers) · [Roblox](https://corp.roblox.com/careers/) · [Unity](https://careers.unity.com)
+- [Activision Blizzard](https://careers.activisionblizzard.com) · [Sea Limited](https://www.seagroup.com/careers/)
+
+## Global Cybersecurity Companies
+
+| Company | Known for | Careers |
+| --- | --- | --- |
+| Palo Alto Networks | Firewalls, XSIAM, Cortex | [Careers](https://jobs.paloaltonetworks.com) |
+| CrowdStrike | Endpoint detection and response | [Careers](https://www.crowdstrike.com/careers/) |
+| Fortinet | Network security and SD-WAN | [Careers](https://www.fortinet.com/corporate/about-us/careers) |
+| Check Point Software | Firewalls and threat prevention | [Careers](https://careers.checkpoint.com) |
+| Cisco Security | Network security, Duo, Umbrella | [Jobs](https://jobs.cisco.com) |
+| Microsoft Security | Defender, Sentinel, Entra | [Careers](https://careers.microsoft.com) |
+| IBM Security | SIEM and threat intelligence | [Careers](https://www.ibm.com/careers) |
+| Broadcom / Symantec | Enterprise endpoint and DLP | [Careers](https://careers.broadcom.com) |
+| Trend Micro | Cloud and endpoint security | [Careers](https://careers.trendmicro.com) |
+| Zscaler | Zero trust and SASE | [Careers](https://www.zscaler.com/careers) |
+| Okta | Identity and access management | [Careers](https://www.okta.com/company/careers/) |
+| SentinelOne | AI endpoint protection | [Careers](https://www.sentinelone.com/careers/) |
+| Rapid7 | Vulnerability management | [Careers](https://www.rapid7.com/about/careers/) |
+| Qualys | Cloud vulnerability scanning | [Careers](https://www.qualys.com/careers/) |
+| Tenable | Exposure management and Nessus | [Careers](https://www.tenable.com/careers) |
+| Darktrace | AI threat detection | [Careers](https://darktrace.com/careers) |
+| Mandiant | Threat intelligence and incident response | [Google Careers](https://careers.google.com) |
+| Kaspersky | Endpoint and threat intelligence | [Careers](https://www.kaspersky.com/about/careers) |
+| Sophos | Endpoint and network security | [Careers](https://www.sophos.com/en-us/careers) |
+| Cloudflare | CDN, WAF, and zero trust | [Careers](https://www.cloudflare.com/careers/) |
+| Akamai | CDN and DDoS protection | [Careers](https://www.akamai.com/careers) |
+| F5 | Application and API security | [Careers](https://www.f5.com/company/careers) |
+| Varonis | Data security and insider threat | [Careers](https://www.varonis.com/careers) |
+| Proofpoint | Email security and phishing defense | [Careers](https://www.proofpoint.com/us/careers) |
+| CyberArk | Privileged access management | [Careers](https://www.cyberark.com/careers/) |
+| Splunk | SIEM and observability | [Careers](https://www.splunk.com/en_us/careers.html) |
