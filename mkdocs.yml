@@ -109,6 +109,8 @@ nav:
       - API Fundamentals: api-testing/api-fundamentals.md
       - REST Concepts: api-testing/rest-concepts.md
       - Testing Tools: api-testing/testing-tools.md
+  - 🧪 Testing:
+      - Python AI Automation Lab: testing/python-ai-automation.md
   - 🔒 Security Testing:
       - Security Roadmap: security/security-roadmap.md
       - 1. Fundamental IT Skills: security/01-fundamental-it-skills.md
