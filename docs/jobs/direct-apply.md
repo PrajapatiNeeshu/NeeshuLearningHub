@@ -9,8 +9,8 @@ The companies below were shared as hiring for fully remote roles. Open the link 
 | Company | Careers / Apply |
 | --- | --- |
 | Confluent | [Apply](https://lnkd.in/dNSTmUeH) |
-| Upwork | [Apply](https://lnkd.in/gt4HYmd) |
-| Cengage Group | [Apply](https://lnkd.in/gGkT6jR) |
+| Upwork | [Apply](https://lnkd.in/gt4HYmd6) |
+| Cengage Group | [Apply](https://lnkd.in/gGkT6jRZ) |
 | Quest Software | [Apply](https://lnkd.in/dkHSNGmM) |
 | Upstart | [Apply](https://lnkd.in/dGR4DJ52) |
 | hims & hers | [Apply](https://lnkd.in/gr_SdVdE) |
