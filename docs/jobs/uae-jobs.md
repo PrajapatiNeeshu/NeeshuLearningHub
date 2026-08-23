@@ -100,3 +100,50 @@ Explore these job boards, remote-work platforms, and freelance marketplaces to d
 28. [Remote in Europe](https://remoteineurope.com)
 29. [Remote of Asia](https://lnkd.in/gsiX9_Zq)
 30. [Remote Rocketship](https://lnkd.in/gss3R6gk)
+
+## ATS-Friendly Resume Builders
+
+Use these tools to create and format resumes that are easier for applicant tracking systems (ATS) to scan.
+
+1. [Overleaf](https://overleaf.com)
+2. [Canva](https://canva.com)
+3. [Resume.io](https://resume.io)
+4. [Enhancv](https://enhancv.com)
+5. [SlashCV](https://slashcv.com)
+6. [Resume.com](https://resume.com)
+7. [VisualCV](https://visualcv.com)
+8. [Kickresume](https://kickresume.com)
+9. [Novoresume](https://novoresume.com)
+10. [Resume Genius](https://resumegenius.com)
+11. [My Perfect Resume](https://myperfectresume.com)
+12. [Zety](https://zety.com)
+
+## Interview Preparation Websites
+
+Practice interview questions, research companies, and prepare for technical and behavioral interviews.
+
+1. [The Muse](https://themuse.com)
+2. [CareerCup](https://careercup.com)
+3. [Glassdoor](https://glassdoor.com)
+4. [PrepLounge](https://preplounge.com)
+5. [InterviewBit](https://interviewbit.com)
+6. [Big Interview](https://biginterview.com)
+7. [Interviewing.io](https://interviewing.io)
+8. [Jobscan Interview Prep](https://jobscan.co/interview)
+9. [Indeed Interview Tips](https://indeed.com/career-advice)
+10. [LinkedIn Learning](https://linkedin.com/learning)
+
+## Free Online Education
+
+Build job-ready skills with these online learning platforms and educational resources.
+
+1. [Coursera](https://coursera.org)
+2. [Udemy](https://udemy.com)
+3. [Khan Academy](https://khanacademy.org)
+4. [edX](https://edx.org)
+5. [Codecademy](https://codecademy.com)
+6. [MIT OpenCourseWare](https://ocw.mit.edu)
+7. [Stanford University Online](https://online.stanford.edu)
+8. [OpenLearn](https://open.edu)
+9. [Great Learning](https://mygreatlearning.com)
+10. [Google Digital Garage](https://learndigital.withgoogle.com/digitalgarage)
