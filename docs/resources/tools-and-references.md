@@ -174,6 +174,9 @@ pip install pytest playwright requests
 
 ## Documentation
 
+### AI Agent Orchestration
+- [Ruflo AI Agent Orchestration](ruflo.md) - Open-source agents, swarms, MCP tools, memory, testing, and security workflows
+
 ### Official Documentation
 - [Playwright Docs](https://playwright.dev)
 - [Python Docs](https://python.org/docs)
