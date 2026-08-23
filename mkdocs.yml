@@ -132,6 +132,7 @@ nav:
       - DevSecOps Intro: devsecops/devsecops-intro.md
       - CI/CD Security: devsecops/cicd-security.md
   - 💼 Interview Questions:
+      - Manual Testing Interview Questions: interviews/manual-testing-interview.md
       - QA Interview: interviews/qa-interview.md
       - Automation Interview: interviews/automation-interview.md
       - API Testing & Rest Assured: interviews/api-rest-assured-interview.md
