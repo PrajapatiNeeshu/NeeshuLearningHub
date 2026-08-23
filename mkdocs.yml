@@ -107,6 +107,7 @@ nav:
       - Best Practices: playwright/best-practices.md
   - 🔌 API Testing:
       - API Fundamentals: api-testing/api-fundamentals.md
+      - API Interview Questions & Notes: api-testing/api-interview-questions.md
       - REST Concepts: api-testing/rest-concepts.md
       - Testing Tools: api-testing/testing-tools.md
       - Playwright API Automation: api-testing/playwright-api-automation.md
