@@ -116,21 +116,33 @@ nav:
       - SQL Notes & Practice: testing/sql-notes-practice.md
   - 🤖 AI Learning:
       - Agents, RAG & LLM Courses: ai/ai-agents-rag-llm-courses.md
+      - Python + LLM Security Testing Roadmap: ai/python-llm-security-testing-roadmap.md
   - 🔒 Security Testing:
       - Security Roadmap: security/security-roadmap.md
       - 1. Fundamental IT Skills: security/01-fundamental-it-skills.md
+      - 1. Fundamental IT Skills (Resources): security/01-fundamental-it-skills-resources.md
       - 2. Operating Systems: security/02-operating-systems.md
+      - 2. Operating Systems (Resources): security/02-operating-systems-resources.md
       - 3. Networking Knowledge: security/03-networking-knowledge.md
+      - 3. Networking Knowledge (Resources): security/03-networking-knowledge-resources.md
       - 4. Security Skills & Knowledge: security/04-security-skills-and-knowledge.md
+      - 4. Security Skills (Resources): security/04-security-skills-resources.md
       - 5. Attack Types & Differences: security/05-attack-types-and-differences.md
+      - 5. Attack Types (Resources): security/05-attack-types-resources.md
       - 6. Tools, Frameworks & Incident Response: security/06-tools-frameworks-incident-response.md
+      - 6. Tools & IR (Resources): security/06-tools-frameworks-ir-resources.md
       - 7. Cloud Skills & Knowledge: security/07-cloud-skills-and-knowledge.md
+      - 7. Cloud Skills (Resources): security/07-cloud-skills-resources.md
       - 8. Programming, Certifications & CTFs: security/08-programming-certifications-ctfs.md
+      - 8. Programming & CTFs (Resources): security/08-programming-certs-ctfs-resources.md
       - 9. CISO Career Advice & Industry Insights: security/09-ciso-career-advice-and-industry-insights.md
+      - 9. CISO Career (Resources): security/09-ciso-career-resources.md
       - 10. End-to-End Career Roadmap: security/10-end-to-end-career-roadmap.md
+      - 10. Cloud Security (Resources): security/10-cloud-security-resources.md
       - Security Basics: security/security-basics.md
       - OWASP Top 10: security/owasp-top-10.md
       - Common Vulnerabilities: security/common-vulnerabilities.md
+      - Cybersecurity Learning Roadmap (Part 2): security/cybersecurity-learning-roadmap-part-2.md
   - 🚀 DevSecOps:
       - DevSecOps Intro: devsecops/devsecops-intro.md
       - CI/CD Security: devsecops/cicd-security.md
@@ -146,4 +158,8 @@ nav:
       - Learning Path: resources/learning-path.md
       - Tools & References: resources/tools-and-references.md
       - Ruflo AI Agent Orchestration: resources/ruflo.md
+      - Best Free AI Courses: resources/ai-courses.md
+      - Free Certifications: resources/free-certifications.md
+      - Useful Links: resources/useful-links.md
+      - Tools (Paid vs Free): resources/tools.md
   - 💬 Contact Us: contact.md
