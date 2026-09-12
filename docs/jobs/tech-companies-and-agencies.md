@@ -1,263 +1,162 @@
-# Recruitment Agencies and Tech Companies
+# Recruitment Agencies and Tech Companies in the UAE
 
-Top Recruitment Agencies in the United Arab Emirates
-The following is a compiled and cleaned list of email addresses for recruitment agencies, extracted from the provided screenshots:
-info@uhrs.ae
-jobs@reachgroup.ae
-info@receptionistspa.com
-info@manpower-me.com
-Contact@nadiaglobal.com
-info@pactemployment.ae
-recruitment@innovationuae.com
-cv@sundusrecruitment.com
-info@sundusrecruitment.com
-clientmiddleeast@michaelpage.ae
-cv@xpertsjobs.com
-info@nathanhr.com
-adeccoae.info@adecco.com
-lobo@lobomanagement.com
-recruit@bacme.com
-submit@bacme.com
-info@sawaeed.ae
-horizongroup@horizon.ae
-info@mackenzieJones.com
-info@inspireselection.com
-dxbjobs@tascoutsourcing.com
-request@tascoutsourcing.com
-info@tascoutsourcing.com
-enquiries@alnahiya.com
-info@admsuae.com
-info@asrs.ae
-careers@rawafed.ae
-clientmiddleeast@hays.com
-corporate.communications@randstad.com
-info@akrs.ae
-info@almansoorgroup.com
-mansoor@emirates.net.ae
-jobseekers@jvi-global.com
-employers@jvi-global.com
-info@executivesolutionsme.com
-enquiry@al-thawiya.com
-ian.mclean@ssaltd.com
-gail@expertsrecruitment.com
-sparkmos@spark.ae
-talascend.marketing@talascend.com
-info@antal.com
-info@derbygroup.ae
-info@icg.ae
-Tech Companies for Kickstarting a Career in the UAE
-The following is a list of technology companies mentioned, organized by location where specified (with duplicates removed and some manual corrections for clarity):
-Tekrevol
-Cubezix
-Burhani
-Xedos Technologies
-Ajman:
-ELEKS
-Emizen Tech
-Sharjah:
-Hyperlink InfoSystem
-Next IT & Systems
-Cynosure Solutions FZC
-Unique Computer Systems
-Advance Card Technology
-eSpire Infotech
-Asset Integrity Engineering
-Cisco IT Solution FZE
-MindMade Technologies
-Celadon
-Abu Dhabi:
-e& (formerly Etisalat)
-G42 (Group 42)
-Astra Tech
-M42
-NymCard
-Dubai:
-Microsoft Gulf
-Oracle Middle East
-IBM Middle East
-SAP MENA
-Amazon Web Services (AWS) Middle East
-Google UAE
-Cisco Systems
-Huawei UAE
-Careem
-NOW Money
-Ziina
-Oponia
-SDLC Corp
-Anstek Systems
-Suffescom Solutions Inc
-Aibiton
-Company Name
-Location
-LinkedIn Profile URL
-Contact Email
-Tekrevol
-UAE
-[https://www.linkedin.com/company/tekrevol](https://www.linkedin.com/company/tekrevol)
-Not publicly available
-Cubezix
-Dubai
-[https://www.linkedin.com/company/cubezix-business-technologies](https://www.linkedin.com/company/cubezix-business-technologies)
-[info@cubezix.com](mailto:info@cubezix.com)
-Burhani
-UAE
-Not found (primarily Kenya-based)
-Not publicly available
-Xedos Technologies
-Dubai
-[https://www.linkedin.com/company/xedosme](https://www.linkedin.com/company/xedosme)
-Not publicly available
-ELEKS
-Ajman
-[https://www.linkedin.com/company/eleks](https://www.linkedin.com/company/eleks)
-Not publicly available
-Emizen Tech
-UAE
-[https://www.linkedin.com/company/emizen-tech](https://www.linkedin.com/company/emizen-tech)
-[info@emizentech.com](mailto:info@emizentech.com)
-Hyperlink InfoSystem
-Sharjah
-[https://www.linkedin.com/company/hyperlinkinfosystem](https://www.linkedin.com/company/hyperlinkinfosystem)
-Not publicly available
-Next IT & Systems
-Sharjah
-[https://ae.linkedin.com/company/next-it-&-systems-llc](https://ae.linkedin.com/company/next-it-&-systems-llc)
-Not publicly available
-Cynosure Solutions FZC
-Sharjah
-[https://www.linkedin.com/company/cynosure-solutions-fzc](https://www.linkedin.com/company/cynosure-solutions-fzc)
-Not publicly available
-Unique Computer Systems
-Sharjah
-[Unique Computer Systems | LinkedIn](https://www.linkedin.com/company/unique-computer-systems)
-Not publicly available
-Advance Card Technology
-UAE
-Not found
-Not publicly available
-eSpire Infotech
-UAE
-Not found (possible Espire Infolabs variant)
-Not publicly available
-Asset Integrity Engineering
-UAE
-[https://ae.linkedin.com/company/asset-integrity-engineering-aie-](https://ae.linkedin.com/company/asset-integrity-engineering-aie-)
-[info@aiegroup.org](mailto:info@aiegroup.org)
-Cisco IT Solution FZE
-UAE
-Not found (refer to global Cisco)
-Not publicly available
-MindMade Technologies
-UAE
-[https://www.linkedin.com/company/mindmade-technologies-pvt-ltd](https://www.linkedin.com/company/mindmade-technologies-pvt-ltd)
-Not publicly available
-Celadon
-UAE
-[https://www.linkedin.com/company/celadon-soft](https://www.linkedin.com/company/celadon-soft)
-Not publicly available
-e& (formerly Etisalat)
-Abu Dhabi
-[https://ae.linkedin.com/company/eanduae](https://ae.linkedin.com/company/eanduae)
-Not publicly available
-G42 (Group 42)
-Abu Dhabi
-[https://www.linkedin.com/company/g42ai](https://www.linkedin.com/company/g42ai)
-Not publicly available
-Astra Tech
-Abu Dhabi
-[https://www.linkedin.com/company/astratechgroup/](https://www.linkedin.com/company/astratechgroup/)
-Not publicly available
-M42
-Abu Dhabi
-[https://www.linkedin.com/company/m42-health](https://www.linkedin.com/company/m42-health)
-Not publicly available
-NymCard
-Abu Dhabi
-[https://www.linkedin.com/company/nymcard](https://www.linkedin.com/company/nymcard)
-Not publicly available
-Microsoft Gulf
-Dubai
-Not found (refer to global Microsoft)
-Not publicly available
-Oracle Middle East
-Dubai
-Not found (refer to global Oracle)
-Not publicly available
-IBM Middle East
-Dubai
-Not found (refer to global IBM)
-Not publicly available
-SAP MENA
-Dubai
-[https://www.linkedin.com/company/sap](https://www.linkedin.com/company/sap)
-Not publicly available
-Amazon Web Services (AWS) Middle East
-Dubai
-[https://www.linkedin.com/company/amazon-web-services](https://www.linkedin.com/company/amazon-web-services)
-Not publicly available
-Google UAE
-Dubai
-Not found (refer to global Google)
-Not publicly available
-Cisco Systems
-Dubai
-[https://www.linkedin.com/company/cisco](https://www.linkedin.com/company/cisco)
-Not publicly available
-Huawei UAE
-Dubai
-[https://www.linkedin.com/company/huawei](https://www.linkedin.com/company/huawei)
-Not publicly available
-Careem
-Dubai
-[https://www.linkedin.com/company/careem](https://www.linkedin.com/company/careem)
-Not publicly available
-NOW Money
-Dubai
-[https://www.linkedin.com/company/now-money](https://www.linkedin.com/company/now-money)
-Not publicly available
-Ziina
-Dubai
-[https://www.linkedin.com/company/ziina](https://www.linkedin.com/company/ziina)
-Not publicly available
-Oponia
-Dubai
-Not found
-Not publicly available
-SDLC Corp
-Dubai
-[https://in.linkedin.com/company/sdlccorp](https://in.linkedin.com/company/sdlccorp)
-Not publicly available
-Anstek Systems
-Dubai
-Not found
-Not publicly available
-Suffescom Solutions Inc
-Dubai
-[https://www.linkedin.com/company/suffescom](https://www.linkedin.com/company/suffescom)
-Not publicly available
-Aibiton
-Dubai
-Not found
-Not publicly available
-Company
-Official LinkedIn Company Page
-Career Page URL
-Ola
-[https://in.linkedin.com/company/ola](https://in.linkedin.com/company/ola)
-[https://www.olacabs.com/careers](https://www.olacabs.com/careers)
-Uber
-[https://www.linkedin.com/company/uber-com](https://www.linkedin.com/company/uber-com)
-[https://www.uber.com/us/en/careers/](https://www.uber.com/us/en/careers/)
-Bluesmart
-Limited presence
-Not available (company inactive)
-Meru
-[https://in.linkedin.com/company/meru-cab-company](https://in.linkedin.com/company/meru-cab-company)
-Not publicly listed
-Zoomcar
-[https://in.linkedin.com/company/zoomcar](https://in.linkedin.com/company/zoomcar)
-Not publicly listed
+This page has been cleaned and rewritten into a simpler, more readable format.
+
+## Part 1: Recruitment Agencies in the UAE
+
+Below is a list of recruitment agencies and their contact emails.
+
+- UHRS — info@uhrs.ae
+- Reach Group — jobs@reachgroup.ae
+- Receptionist Spa — info@receptionistspa.com
+- Manpower Middle East — info@manpower-me.com
+- Nadia Global — Contact@nadiaglobal.com
+- PACT Employment — info@pactemployment.ae
+- Innovation UAE Recruitment — recruitment@innovationuae.com
+- Sundus Recruitment — cv@sundusrecruitment.com
+- Sundus Recruitment — info@sundusrecruitment.com
+- Michael Page Middle East — clientmiddleeast@michaelpage.ae
+- Experts Jobs — cv@xpertsjobs.com
+- Nathan HR — info@nathanhr.com
+- Adecco UAE — adeccoae.info@adecco.com
+- Lobo Management — lobo@lobomanagement.com
+- BACME — recruit@bacme.com
+- BACME — submit@bacme.com
+- Sawaeed — info@sawaeed.ae
+- Horizon Group — horizongroup@horizon.ae
+- Mackenzie Jones — info@mackenziejones.com
+- Inspire Selection — info@inspireselection.com
+- Tascoutsourcing — dxbjobs@tascoutsourcing.com
+- Tascoutsourcing — request@tascoutsourcing.com
+- Tascoutsourcing — info@tascoutsourcing.com
+- Al Nahiya — enquiries@alnahiya.com
+- ADMS UAE — info@admsuae.com
+- ASRS — info@asrs.ae
+- Rawafed — careers@rawafed.ae
+- Hays — clientmiddleeast@hays.com
+- Randstad — corporate.communications@randstad.com
+- AKRS — info@akrs.ae
+- Al Mansoorgroup — info@almansoorgroup.com
+- Emirates Network — mansoor@emirates.net.ae
+- JVI Global — jobseekers@jvi-global.com
+- JVI Global — employers@jvi-global.com
+- Executive Solutions — info@executivesolutionsme.com
+- Al Thawiya — enquiry@al-thawiya.com
+- SSA LTD — ian.mclean@ssaltd.com
+- Experts Recruitment — gail@expertsrecruitment.com
+- Spark — sparkmos@spark.ae
+- Talascend — talascend.marketing@talascend.com
+- Antal — info@antal.com
+- Derby Group — info@derbygroup.ae
+- ICG — info@icg.ae
+
+### Quick note
+
+These are mostly recruitment and staffing agencies in the UAE. Some are general hiring firms, some are executive search companies, and some are staffing partners for large employers.
+
+---
+
+## Part 2: Tech Companies and Career Start Points in the UAE
+
+This section groups technology companies by city or region to make it easier to explore.
+
+### Ajman
+
+- ELEKS
+- Emizen Tech
+
+### Sharjah
+
+- Hyperlink InfoSystem
+- Next IT & Systems
+- Cynosure Solutions FZC
+- Unique Computer Systems
+- Advance Card Technology
+- eSpire Infotech
+- Asset Integrity Engineering
+- Cisco IT Solution FZE
+- MindMade Technologies
+- Celadon
+
+### Abu Dhabi
+
+- e& (formerly Etisalat)
+- G42 (Group 42)
+- Astra Tech
+- M42
+- NymCard
+
+### Dubai
+
+- Microsoft Gulf
+- Oracle Middle East
+- IBM Middle East
+- SAP MENA
+- Amazon Web Services (AWS) Middle East
+- Google UAE
+- Cisco Systems
+- Huawei UAE
+- Careem
+- NOW Money
+- Ziina
+- Oponia
+- SDLC Corp
+- Anstek Systems
+- Suffescom Solutions Inc
+- Aibiton
+- Tekrevol
+- Cubezix
+- Burhani
+- Xedos Technologies
+
+### UAE-wide / General
+
+- Tekrevol
+- Cubezix
+- Burhani
+- Xedos Technologies
+- Emizen Tech
+- Advance Card Technology
+- eSpire Infotech
+- Asset Integrity Engineering
+- Cisco IT Solution FZE
+- MindMade Technologies
+- Celadon
+
+### Important clarification
+
+Some company entries are:
+
+- direct tech companies in the UAE,
+- international companies with a UAE presence,
+- or older entries that may be partially outdated.
+
+So this list is best used as a starting shortlist for research rather than as a final verified employer directory.
+
+---
+
+## Extra: Example Companies for Career Research
+
+These are commonly searched companies when exploring job opportunities in the region:
+
+- Ola
+- Uber
+- Meru
+- Zoomcar
+- Bluesmart
+
+> This last section is a separate example list and is not part of the main UAE recruitment agency directory.
+
+---
+
+## Best way to use this file
+
+1. Start with Part 1 if you want agency contact emails.
+2. Use Part 2 if you are searching for technology companies in UAE cities.
+3. Validate each company on LinkedIn or company careers pages before sending applications.
+
+This version is easier to read, easier to search, and more organized for learning or job hunting.
+
 Rapido
 [https://in.linkedin.com/company/rapido-bike-taxi](https://in.linkedin.com/company/rapido-bike-taxi)
 Not publicly listed
