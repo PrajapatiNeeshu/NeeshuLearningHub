@@ -105,6 +105,7 @@ nav:
       - Playwright Basics: playwright/playwright-basics.md
       - Advanced Selectors: playwright/advanced-selectors.md
       - Best Practices: playwright/best-practices.md
+      - TypeScript: playwright/typescript.md
   - 🔌 API Testing:
       - API Fundamentals: api-testing/api-fundamentals.md
       - API Interview Questions & Notes: api-testing/api-interview-questions.md
@@ -117,6 +118,8 @@ nav:
   - 🤖 AI Learning:
       - Agents, RAG & LLM Courses: ai/ai-agents-rag-llm-courses.md
       - Building AI Agents Resources: ai/Building-AI-Agents-Learning-Resources.md
+      - Universal AI Study Prompts: ai/50_Universal_AI_Study_Prompts.md
+      - Free AI Courses & Resources: ai/Free_AI_Courses_Resources.md
       - Python + LLM Security Testing Roadmap: ai/python-llm-security-testing-roadmap.md
       - AI Resources & Stanford Curriculum: ai/ai-resources.md
   - 🔒 Security Testing:
@@ -145,6 +148,7 @@ nav:
       - OWASP Top 10: security/owasp-top-10.md
       - Common Vulnerabilities: security/common-vulnerabilities.md
       - Cybersecurity Learning Roadmap (Part 2): security/cybersecurity-learning-roadmap-part-2.md
+      - Cybersecurity Projects Portfolio: security/Cybersecurity_Projects_Portfolio.md
   - 🚀 DevSecOps:
       - DevSecOps Intro: devsecops/devsecops-intro.md
       - CI/CD Security: devsecops/cicd-security.md
@@ -153,6 +157,8 @@ nav:
       - QA Interview: interviews/qa-interview.md
       - Automation Interview: interviews/automation-interview.md
       - API Testing & Rest Assured: interviews/api-rest-assured-interview.md
+      - SDET API Testing Interview Guide: interviews/SDET_API_Testing_Interview_Guide_Java_RestAssured_Playwright_Python.md
+      - SDET Java Coding Interview Preparation: interviews/SDET_Java_Coding_Interview_Preparation.md
   - 💼 Jobs:
       - UAE Jobs: jobs/uae-jobs.md
       - Direct Apply Company Links: jobs/direct-apply.md

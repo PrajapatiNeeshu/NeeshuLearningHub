@@ -104,3 +104,72 @@ flowchart LR
 - [Multi-Agent Systems](https://lnkd.in/gUayts9s)
 - [Berkeley Agent MOOC](https://lnkd.in/gqyKWE3A)
 - [Berkeley Advanced Agents MOOC](https://lnkd.in/gydt98kW)
+
+
+
+
+LLM Model lIke GPT , LLM Model testing
+New version of application
+
+Job Details
+* Location: Gurugram
+* Work Mode: Hybrid (3 days WFO)
+* Experience: 7+ Years
+* Employment Type: Full-Time
+
+
+What You’ll Work On
+
+* Design and execute LLM evaluation frameworks (LangSmith, DeepEval, etc.)
+* Measure and improve metrics like F1 score, execution accuracy, latency, token cost
+* Build and maintain golden datasets for AI regression testing
+* Validate semantic search & retrieval systems (precision/recall, embeddings)
+* Perform deep failure analysis across AI pipelines
+* Develop API automation (Python + Pytest) and UI automation (Playwright)
+* Monitor systems using Grafana & structured logs to detect hallucinations and bottlenecks
+* Implement AI guardrails, validation rules & security checks for safe query execution
+
+Tech Stack & Skills
+
+* AI/LLM Testing: RAG pipelines, NLP systems, evaluation frameworks
+* Languages: Python (must-have), JavaScript/TypeScript (good to have)
+* Automation: REST API testing, Pytest, Playwright
+* Data & Search: Vector DBs (Pinecone, Milvus), embeddings, hybrid search
+* SQL: Strong query validation & data verification skills
+* Tools: Git, Docker, CI/CD, Grafana/Prometheus
+
+Domain Expertise (Preferred)
+
+* BFSI (Banking, Financial Services, Insurance)
+* Data security, compliance, enterprise-grade systems
+
+Nice to Have
+
+* Experience with LangGraph, Neo4j, or graph-based systems
+* Exposure to OpenAI / Anthropic / Google LLMs
+* Understanding of multi-service architectures & system reliability
+Core Skillset:
+* 		Agentic AI  LangGraph / LangChain / LangSmith
+* 		LLMs  OpenAI / Anthropic Claude / Azure OpenAI / Prompt Engineering
+* 		Vector DB – pgvector / Pinecone / Weaviate / ChromaDB
+* 		Workflow Orchestration – Temporal.io / Airflow
+* 		Browser Automation – Playwright / Selenium
+* 		REST APIs – Design, Integration, OAuth2, Webhooks
+* 		Cloud – AWS / Azure / GCP
+* 		Languages – Python / TypeScript / SQL
+
+
+Description:
+* Build and execute automated tests for AI/LLM systems
+* Validate GenAI outputs including accuracy, consistency, and edge cases
+* Analyze logs, datasets, and responses to identify issues
+* Debug AI system behaviour end-to-end
+* Contribute to LLM-assisted test case generation workflows
+* Write scripts for parsing data, logs, and APIs
+* Analyze raw outputs and logs using code
+Required Skills:
+* Strong coding skills (Python preferred)
+* Ability to write scripts for parsing data, logs, and APIs
+* Experience with test automation (API testing, automation scripts)
+* Hands-on experience with GenAI / LLM systems
+* Experience with prompts, outputs validation, and real implementations
