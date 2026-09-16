@@ -1,0 +1,192 @@
+ # Company Job Search List
+
+## UAE Companies
+
+| Company | Location | LinkedIn / Notes |
+|---|---|---|
+| Tekrevol | UAE | [LinkedIn](https://www.linkedin.com/company/tekrevol) |
+| Cubezix | Dubai | [LinkedIn](https://www.linkedin.com/company/cubezix-business-technologies) |
+| Burhani UAE | UAE | Not found (primarily Kenya-based) |
+| Xedos Technologies | Dubai | [LinkedIn](https://www.linkedin.com/company/xedosme) |
+| ELEKS | Ajman | [LinkedIn](https://www.linkedin.com/company/eleks) |
+| Emizen Tech | UAE | [LinkedIn](https://www.linkedin.com/company/emizen-tech) |
+| Hyperlink InfoSystem | Sharjah | [LinkedIn](https://www.linkedin.com/company/hyperlinkinfosystem) |
+| Next IT & Systems | Sharjah | [LinkedIn](https://ae.linkedin.com/company/next-it-&-systems-llc) |
+| Cynosure Solutions FZC | Sharjah | [LinkedIn](https://www.linkedin.com/company/cynosure-solutions-fzc) |
+| Unique Computer Systems | Sharjah | [LinkedIn](https://www.linkedin.com/company/unique-computer-systems) |
+| Advance Card Technology | UAE | Not found |
+| eSpire Infotech | UAE | Not found (possible Espire Infolabs variant) |
+| Asset Integrity Engineering | UAE | [LinkedIn](https://ae.linkedin.com/company/asset-integrity-engineering-aie-) |
+| Cisco IT Solution FZE | UAE | Not found (refer to global Cisco) |
+| MindMade Technologies | UAE | [LinkedIn](https://www.linkedin.com/company/mindmade-technologies-pvt-ltd) |
+| Celadon | UAE | [LinkedIn](https://www.linkedin.com/company/celadon-soft) |
+| e& (formerly Etisalat) | Abu Dhabi | [LinkedIn](https://ae.linkedin.com/company/eanduae) |
+| G42 (Group 42) | Abu Dhabi | [LinkedIn](https://www.linkedin.com/company/g42ai) |
+| Astra Tech | Abu Dhabi | [LinkedIn](https://www.linkedin.com/company/astratechgroup/) |
+| M42 | Abu Dhabi | [LinkedIn](https://www.linkedin.com/company/m42-health) |
+| NymCard | Abu Dhabi | [LinkedIn](https://www.linkedin.com/company/nymcard) |
+| Microsoft Gulf | Dubai | Not found (refer to global Microsoft) |
+| Oracle Middle East | Dubai | Not found (refer to global Oracle) |
+| IBM Middle East | Dubai | Not found (refer to global IBM) |
+| SAP MENA | Dubai | [LinkedIn](https://www.linkedin.com/company/sap) |
+| Amazon Web Services (AWS) Middle East | Dubai | [LinkedIn](https://www.linkedin.com/company/amazon-web-services) |
+| Google UAE | Dubai | Not found (refer to global Google) |
+| Cisco Systems | Dubai | [LinkedIn](https://www.linkedin.com/company/cisco) |
+| Huawei UAE | Dubai | [LinkedIn](https://www.linkedin.com/company/huawei) |
+| Careem | Dubai | [LinkedIn](https://www.linkedin.com/company/careem) |
+| NOW Money | Dubai | [LinkedIn](https://www.linkedin.com/company/now-money) |
+| Ziina | Dubai | [LinkedIn](https://www.linkedin.com/company/ziina) |
+| Oponia | Dubai | Not found |
+| SDLC Corp | Dubai | [LinkedIn](https://in.linkedin.com/company/sdlccorp) |
+| Anstek Systems | Dubai | Not found |
+| Suffescom Solutions Inc | Dubai | [LinkedIn](https://www.linkedin.com/company/suffescom) |
+| Aibiton | Dubai | Not found |
+
+## Companies and Career Pages
+
+| Company | Official LinkedIn | Career Page |
+|---|---|---|
+| Ola | [LinkedIn](https://in.linkedin.com/company/ola) | [Careers](https://www.olacabs.com/careers) |
+| Uber | [LinkedIn](https://www.linkedin.com/company/uber-com) | [Careers](https://www.uber.com/us/en/careers/) |
+| Bluesmart | Limited presence | Not available (company inactive) |
+| Meru | [LinkedIn](https://in.linkedin.com/company/meru-cab-company) | Not publicly listed |
+| Zoomcar | [LinkedIn](https://in.linkedin.com/company/zoomcar) | Not publicly listed |
+| Rapido | [LinkedIn](https://in.linkedin.com/company/rapido-bike-taxi) | Not publicly listed |
+| Walmart | [LinkedIn](https://www.linkedin.com/company/walmart) | [Careers](https://careers.walmart.com/) |
+| Flipkart | [LinkedIn](https://in.linkedin.com/company/flipkart) | [Careers](https://www.flipkartcareers.com/) |
+| Myntra | [LinkedIn](https://in.linkedin.com/company/myntra) | [Careers](https://careers.myntra.com/) |
+| Tesco | [LinkedIn](https://www.linkedin.com/company/tesco) | [Careers](https://www.tesco-careers.com) |
+| Target | [LinkedIn](https://www.linkedin.com/company/target) | [Careers](https://corporate.target.com/careers) |
+| Shopsy | Limited presence (subsidiary of Flipkart) | Not publicly listed |
+| Bloomreach | [LinkedIn](https://www.linkedin.com/company/bloomreach) | [Careers](https://www.bloomreach.com/careers) |
+| Udaan | [LinkedIn](https://in.linkedin.com/company/udaan-com) | [Careers](https://careers.udaan.com/) |
+| Cult.fit | [LinkedIn](https://in.linkedin.com/company/cultfit) | Not publicly listed |
+| Urban Company | [LinkedIn](https://in.linkedin.com/company/urbancompany) | [Careers](https://careers.urbancompany.com/) |
+| Ajio | Limited presence (part of Reliance Retail) | Not publicly listed |
+| PharmEasy | [LinkedIn](https://in.linkedin.com/company/pharmeasy) | [Careers](https://pharmeasy.in/careers) |
+| Meesho | [LinkedIn](https://www.linkedin.com/company/meesho) | [Careers](https://www.meesho.io/jobs) |
+| Lowe's Companies, Inc. | [LinkedIn](https://www.linkedin.com/company/lowes) | [Careers](https://talent.lowes.com) |
+| Zoho | [LinkedIn](https://www.linkedin.com/company/zoho) | [Careers](https://www.zoho.com/careers) |
+| Salesforce | [LinkedIn](https://www.linkedin.com/company/salesforce) | [Careers](https://www.salesforce.com/company/careers) |
+| EngageBay | [LinkedIn](https://www.linkedin.com/company/engagebay) | [Careers](https://www.engagebay.com/careers) |
+| ServiceNow | [LinkedIn](https://www.linkedin.com/company/servicenow) | [Careers](https://careers.servicenow.com/) |
+| LinkedIn | [LinkedIn](https://www.linkedin.com/company/linkedin) | [Careers](https://careers.linkedin.com) |
+| Indeed | [LinkedIn](https://www.linkedin.com/company/indeed-com) | [Careers](https://www.indeed.com/careers) |
+| Uplers | [LinkedIn](https://www.linkedin.com/company/uplers) | [Careers](https://www.uplers.com/careers) |
+| Naukri.com (Info Edge) | [LinkedIn](https://in.linkedin.com/company/naukri-com) | [Careers](https://www.infoedge.in/careers) |
+| Atlassian | [LinkedIn](https://www.linkedin.com/company/atlassian) | [Careers](https://www.atlassian.com/company/careers) |
+| Asana | [LinkedIn](https://www.linkedin.com/company/asana) | [Careers](https://asana.com/jobs) |
+| Zoom | [LinkedIn](https://www.linkedin.com/company/zoom-video-communications) | [Careers](https://www.zoom.us/careers) |
+| Slack | [LinkedIn](https://www.linkedin.com/company/tiny-spec-inc) | [Careers](https://slack.com/careers) |
+| Oracle Cloud Infrastructure | [LinkedIn](https://www.linkedin.com/company/oracle) | [Careers](https://www.oracle.com/careers) |
+| VMware | [LinkedIn](https://www.linkedin.com/company/vmware) | [Careers](https://careers.vmware.com/) |
+| Red Hat | [LinkedIn](https://www.linkedin.com/company/red-hat) | [Careers](https://www.redhat.com/en/jobs) |
+| SAP | [LinkedIn](https://www.linkedin.com/company/sap) | [Careers](https://jobs.sap.com) |
+| Hewlett Packard Enterprise | [LinkedIn](https://www.linkedin.com/company/hewlett-packard-enterprise) | [Careers](https://jobs.hpe.com) |
+| IBM | [LinkedIn](https://www.linkedin.com/company/ibm) | [Careers](https://www.ibm.com/careers) |
+| BrowserStack | [LinkedIn](https://www.linkedin.com/company/browserstack) | [Careers](https://www.browserstack.com/careers) |
+| Nutanix | [LinkedIn](https://www.linkedin.com/company/nutanix) | [Careers](https://www.nutanix.com/company/careers) |
+| NetApp | [LinkedIn](https://www.linkedin.com/company/netapp) | [Careers](https://www.netapp.com/company/careers) |
+| Tekion Corp | [LinkedIn](https://www.linkedin.com/company/tekion) | [Careers](https://www.tekion.com/careers) |
+| Cohesity | [LinkedIn](https://www.linkedin.com/company/cohesity) | [Careers](https://www.cohesity.com/careers) |
+| Rubrik | [LinkedIn](https://www.linkedin.com/company/rubrik-inc) | [Careers](https://www.rubrik.com/company/careers) |
+| Twilio | [LinkedIn](https://www.linkedin.com/company/twilio-inc-) | [Careers](https://www.twilio.com/company/jobs) |
+| Twitter (X) | [LinkedIn](https://www.linkedin.com/company/x-corp) | [Careers](https://careers.x.com/) |
+| Airtel | [LinkedIn](https://in.linkedin.com/company/bharti-airtel-limited) | [Careers](https://www.airtel.in/careers) |
+| Media.net | [LinkedIn](https://www.linkedin.com/company/media-net) | [Careers](https://www.media.net/careers) |
+| Adpushup | [LinkedIn](https://in.linkedin.com/company/adpushup) | Not publicly listed |
+| Kevel | [LinkedIn](https://www.linkedin.com/company/kevel) | [Careers](https://www.kevel.com/careers) |
+| PayPal | [LinkedIn](https://www.linkedin.com/company/paypal) | [Careers](https://careers.pypl.com/) |
+| Visa | [LinkedIn](https://www.linkedin.com/company/visa) | [Careers](https://corporate.visa.com/careers) |
+| PhonePe | [LinkedIn](https://in.linkedin.com/company/phonepe) | [Careers](https://www.phonepe.com/careers) |
+| Paytm | [LinkedIn](https://in.linkedin.com/company/paytm) | [Careers](https://paytm.com/careers) |
+| BharatPe | [LinkedIn](https://in.linkedin.com/company/bharatpe) | Not publicly listed |
+| CRED | [LinkedIn](https://in.linkedin.com/company/cred-club) | [Careers](https://careers.cred.club/) |
+| Jupiter | [LinkedIn](https://in.linkedin.com/company/jupiter-money) | [Careers](https://jupiter.money/careers) |
+| Slice | [LinkedIn](https://in.linkedin.com/company/slice-it) | [Careers](https://www.sliceit.com/careers) |
+| Razorpay | [LinkedIn](https://in.linkedin.com/company/razorpay) | [Careers](https://razorpay.com/jobs) |
+| Zeta | [LinkedIn](https://in.linkedin.com/company/zeta-india) | [Careers](https://www.zeta.tech/careers) |
+| Rupeek | [LinkedIn](https://in.linkedin.com/company/rupeek) | Not publicly listed |
+| ClearTax | [LinkedIn](https://in.linkedin.com/company/cleartax-india) | [Careers](https://cleartax.in/careers) |
+| Tower Research Capital | [LinkedIn](https://www.linkedin.com/company/tower-research-capital) | [Careers](https://www.tower-research.com/careers) |
+| Upstox | [LinkedIn](https://in.linkedin.com/company/upstox) | [Careers](https://upstox.com/careers) |
+| Groww | [LinkedIn](https://in.linkedin.com/company/groww.in) | [Careers](https://groww.in/careers) |
+| Zerodha | [LinkedIn](https://in.linkedin.com/company/zerodha) | [Careers](https://careers.zerodha.com/) |
+| D.E. Shaw | [LinkedIn](https://www.linkedin.com/company/d.-e.-shaw-&-co) | [Careers](https://www.deshaw.com/careers) |
+| Goldman Sachs | [LinkedIn](https://www.linkedin.com/company/goldman-sachs) | [Careers](https://www.goldmansachs.com/careers) |
+| WorldQuant | [LinkedIn](https://www.linkedin.com/company/worldquant) | [Careers](https://www.worldquant.com/careers) |
+| Arcesium | [LinkedIn](https://www.linkedin.com/company/arcesium) | [Careers](https://www.arcesium.com/careers) |
+| Intuit | [LinkedIn](https://www.linkedin.com/company/intuit) | [Careers](https://www.intuit.com/careers) |
+| JP Morgan | [LinkedIn](https://www.linkedin.com/company/jpmorgan) | [Careers](https://careers.jpmorgan.com/) |
+| Morgan Stanley | [LinkedIn](https://www.linkedin.com/company/morgan-stanley) | [Careers](https://www.morganstanley.com/careers) |
+| Wells Fargo | [LinkedIn](https://www.linkedin.com/company/wellsfargo) | [Careers](https://www.wellsfargo.com/careers) |
+| Druva | [LinkedIn](https://www.linkedin.com/company/druva) | [Careers](https://www.druva.com/company/careers) |
+| Airbnb | [LinkedIn](https://www.linkedin.com/company/airbnb) | [Careers](https://careers.airbnb.com/) |
+| OYO | [LinkedIn](https://www.linkedin.com/company/oyo-rooms) | [Careers](https://www.oyorooms.com/careers) |
+| MakeMyTrip | [LinkedIn](https://www.linkedin.com/company/makemytrip.com) | [Careers](https://careers.makemytrip.com/) |
+| Expedia | [LinkedIn](https://www.linkedin.com/company/expediagroup) | [Careers](https://lifeatexpedia.com/) |
+| Groupon | [LinkedIn](https://www.linkedin.com/company/groupon) | [Careers](https://www.grouponcareers.com/) |
+| Booking.com | [LinkedIn](https://www.linkedin.com/company/booking.com) | [Careers](https://careers.booking.com) |
+| Agoda | [LinkedIn](https://sg.linkedin.com/company/agoda) | [Careers](https://careers.agoda.com) |
+| Directi | [LinkedIn](https://in.linkedin.com/company/directi) | Not publicly listed |
+| Qualcomm | [LinkedIn](https://www.linkedin.com/company/qualcomm) | [Careers](https://www.qualcomm.com/company/careers) |
+| Dell | [LinkedIn](https://www.linkedin.com/company/delltechnologies) | [Careers](https://jobs.dell.com/) |
+| Nvidia | [LinkedIn](https://www.linkedin.com/company/nvidia) | [Careers](https://www.nvidia.com/en-us/about-nvidia/careers) |
+| Arista Networks | [LinkedIn](https://www.linkedin.com/company/arista-networks-inc) | [Careers](https://www.arista.com/en/careers) |
+| Palo Alto Networks | [LinkedIn](https://www.linkedin.com/company/palo-alto-networks) | [Careers](https://jobs.paloaltonetworks.com/) |
+| Dream11 | [LinkedIn](https://in.linkedin.com/company/dream11) | [Careers](https://www.dreamsports.group/careers) |
+| Cricbuzz | [LinkedIn](https://in.linkedin.com/company/cricbuzz.com) | Not publicly listed |
+| MPL | [LinkedIn](https://in.linkedin.com/company/mobile-premier-league) | Not publicly listed |
+| Zynga | [LinkedIn](https://www.linkedin.com/company/zynga) | [Careers](https://www.zynga.com/careers) |
+| BlueStacks | [LinkedIn](https://www.linkedin.com/company/bluestacks) | Not publicly listed |
+| Games24x7 | [LinkedIn](https://www.linkedin.com/company/games24x7-private-limited) | [Careers](https://www.games24x7.com/careers) |
+| Hotstar | [LinkedIn](https://in.linkedin.com/company/disney-hotstar) | Not publicly listed (via Disney careers) |
+| InMobi | [LinkedIn](https://www.linkedin.com/company/inmobi) | [Careers](https://www.inmobi.com/careers) |
+| ShareChat | [LinkedIn](https://in.linkedin.com/company/sharechat) | [Careers](https://sharechat.com/careers) |
+| Swiggy | [LinkedIn](https://in.linkedin.com/company/swiggy-in) | [Careers](https://careers.swiggy.com) |
+| Zomato | [LinkedIn](https://in.linkedin.com/company/zomato) | [Careers](https://www.zomato.com/careers) |
+| Dunzo | [LinkedIn](https://in.linkedin.com/company/dunzo-in) | Not publicly listed |
+| Delhivery | [LinkedIn](https://www.linkedin.com/company/delhivery) | [Careers](https://www.delhivery.com/careers) |
+| Porter | [LinkedIn](https://in.linkedin.com/company/theporter-in) | [Careers](https://porter.in/careers) |
+| Fractal | [LinkedIn](https://www.linkedin.com/company/fractal-analytics) | [Careers](https://www.fractal.ai/careers) |
+| Tredence | [LinkedIn](https://www.linkedin.com/company/tredence) | [Careers](https://www.tredence.com/careers) |
+| Tiger Analytics | [LinkedIn](https://www.linkedin.com/company/tiger-analytics) | [Careers](https://www.tigeranalytics.com/careers) |
+| LatentView | [LinkedIn](https://www.linkedin.com/company/latentview-analytics) | [Careers](https://www.latentview.com/careers) |
+| Mu Sigma | [LinkedIn](https://www.linkedin.com/company/mu-sigma) | [Careers](https://www.mu-sigma.com/careers) |
+| Ericsson | [LinkedIn](https://www.linkedin.com/company/ericsson) | [Careers](https://jobs.ericsson.com/) |
+| Nokia | [LinkedIn](https://www.linkedin.com/company/nokia) | [Careers](https://www.nokia.com/careers) |
+| Tejas Networks | [LinkedIn](https://in.linkedin.com/company/tejas-networks) | [Careers](https://www.tejasnetworks.com/careers) |
+| NEC | [LinkedIn](https://www.linkedin.com/company/nec) | [Careers](https://www.nec.com/en/global/careers) |
+| Radisys | [LinkedIn](https://www.linkedin.com/company/radisys-corporation) | [Careers](https://www.radisys.com/careers) |
+| Clio | [LinkedIn](https://ca.linkedin.com/company/clio---cloud-based-legal-technology) | [Careers](https://www.clio.com/careers) |
+| Fivetran | [LinkedIn](https://www.linkedin.com/company/fivetran) | [Careers](https://www.fivetran.com/careers) |
+| Lumen Technologies | [LinkedIn](https://www.linkedin.com/company/lumentechnologies) | [Careers](https://jobs.lumen.com/) |
+| BetterUp | [LinkedIn](https://www.linkedin.com/company/betterup) | [Careers](https://www.betterup.com/careers) |
+| Quest Software | [LinkedIn](https://www.linkedin.com/company/quest-software) | [Careers](https://www.quest.com/careers) |
+| Upstart | [LinkedIn](https://www.linkedin.com/company/upstart-network) | [Careers](https://www.upstart.com/careers) |
+| Celigo | [LinkedIn](https://www.linkedin.com/company/celigo-inc) | [Careers](https://www.celigo.com/careers) |
+| Cengage Group | [LinkedIn](https://www.linkedin.com/company/cengage-learning) | [Careers](https://www.cengage.com/careers) |
+| Docker | [LinkedIn](https://www.linkedin.com/company/docker) | [Careers](https://www.docker.com/careers) |
+| hims & hers | [LinkedIn](https://www.linkedin.com/company/hims-&-hers) | [Careers](https://www.forhims.com/careers) |
+| User Interviews | [LinkedIn](https://www.linkedin.com/company/user-interviews) | [Careers](https://www.userinterviews.com/careers) |
+| Abnormal Security | [LinkedIn](https://www.linkedin.com/company/abnormalsecurity) | [Careers](https://www.abnormalsecurity.com/careers) |
+| Cash App | [LinkedIn](https://www.linkedin.com/company/cash-app) | [Careers](https://cash.app/careers) (via Block) |
+| LogicGate | [LinkedIn](https://www.linkedin.com/company/logic-gate) | [Careers](https://www.logicgate.com/careers) |
+| Faire | [LinkedIn](https://www.linkedin.com/company/fairewholesale) | [Careers](https://www.faire.com/careers) |
+| Renaissance Learning | [LinkedIn](https://www.linkedin.com/company/renaissance-learning) | [Careers](https://www.renaissance.com/careers) |
+| Rec Room | [LinkedIn](https://www.linkedin.com/company/recroominc) | [Careers](https://recroom.com/careers) |
+| VAST Data | [LinkedIn](https://www.linkedin.com/company/vast-data) | [Careers](https://www.vastdata.com/careers) |
+| Sorcero | [LinkedIn](https://www.linkedin.com/company/sorcero) | [Careers](https://www.sorcero.com/careers) |
+| McGraw Hill | [LinkedIn](https://www.linkedin.com/company/cengage-learning) | [Careers](https://careers.mheducation.com/) |
+| Patreon | [LinkedIn](https://www.linkedin.com/company/patreon) | [Careers](https://www.patreon.com/careers) |
+| Beekeeper | [LinkedIn](https://www.linkedin.com/company/beekeeper) | [Careers](https://www.beekeeper.io/careers) |
+| Upwork | [LinkedIn](https://www.linkedin.com/company/upwork) | [Careers](https://www.upwork.com/careers) |
+| DocuSign | [LinkedIn](https://www.linkedin.com/company/docusign) | [Careers](https://careers.docusign.com/) |
+| DealHub | [LinkedIn](https://www.linkedin.com/company/dealhubio) | [Careers](https://www.dealhub.io/careers) |
+| Census | [LinkedIn](https://www.linkedin.com/company/getcensus) | [Careers](https://www.getcensus.com/careers) |
+| Intrado | [LinkedIn](https://www.linkedin.com/company/intrado-corp) | [Careers](https://www.intrado.com/careers) |
+| Cloudflare | [LinkedIn](https://www.linkedin.com/company/cloudflare) | [Careers](https://www.cloudflare.com/careers) |
+| Workiva | [LinkedIn](https://www.linkedin.com/company/workiva) | [Careers](https://www.workiva.com/careers) |
+| Dropbox | [LinkedIn](https://www.linkedin.com/company/dropbox) | [Careers](https://jobs.dropbox.com/) |
+| Loop (Returns) | [LinkedIn](https://www.linkedin.com/company/loop-returns) | [Careers](https://www.loopreturns.com/careers) |
+| VGS (Very Good Security) | [LinkedIn](https://www.linkedin.com/company/very-good-security) | [Careers](https://www.verygoodsecurity.com/careers) |
