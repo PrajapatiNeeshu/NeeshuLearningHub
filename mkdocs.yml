@@ -116,6 +116,7 @@ nav:
       - SQL Notes & Practice: testing/sql-notes-practice.md
   - 🤖 AI Learning:
       - Agents, RAG & LLM Courses: ai/ai-agents-rag-llm-courses.md
+      - Building AI Agents Resources: ai/Building-AI-Agents-Learning-Resources.md
       - Python + LLM Security Testing Roadmap: ai/python-llm-security-testing-roadmap.md
       - AI Resources & Stanford Curriculum: ai/ai-resources.md
   - 🔒 Security Testing:
@@ -158,6 +159,7 @@ nav:
       - Remote Company Jobs: jobs/remote.md
       - Recruitment & Tech Companies: jobs/tech-companies-and-agencies.md
       - All Good Companies: jobs/allGoodCompnay.md
+      - LinkedIn & Career Pages: jobs/company_linkedin_careers.md
   - 📚 Resources:
       - Learning Path: resources/learning-path.md
       - Tools & References: resources/tools-and-references.md
