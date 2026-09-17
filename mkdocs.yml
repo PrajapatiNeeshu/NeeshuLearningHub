@@ -157,8 +157,11 @@ nav:
       - QA Interview: interviews/qa-interview.md
       - Automation Interview: interviews/automation-interview.md
       - API Testing & Rest Assured: interviews/api-rest-assured-interview.md
+      - AI QA / SDET Interview Prep: interviews/AI-QA-SDET-Interview-Prep.md
+      - Python Coding Interview Programs for SDET: interviews/Python_Coding_Interview_Programs_For_SDET.md
       - SDET API Testing Interview Guide: interviews/SDET_API_Testing_Interview_Guide_Java_RestAssured_Playwright_Python.md
       - SDET Java Coding Interview Preparation: interviews/SDET_Java_Coding_Interview_Preparation.md
+      - SDET QA & SQL Interview Preparation: interviews/SDET_QA_SQL_Interview_Preparation_Guide.md
   - 💼 Jobs:
       - UAE Jobs: jobs/uae-jobs.md
       - Direct Apply Company Links: jobs/direct-apply.md
