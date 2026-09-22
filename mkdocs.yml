@@ -129,34 +129,40 @@ nav:
       - AI Resources & Stanford Curriculum: ai/ai-resources.md
       - Top GitHub Profiles for AI & Software Engineering: ai/topAIRepo.md
   - 🔒 Security Testing:
-      - Security Roadmap: security/security-roadmap.md
-      - 1. Fundamental IT Skills: security/01-fundamental-it-skills.md
-      - 1. Fundamental IT Skills (Resources): security/01-fundamental-it-skills-resources.md
-      - 2. Operating Systems: security/02-operating-systems.md
-      - 2. Operating Systems (Resources): security/02-operating-systems-resources.md
-      - 3. Networking Knowledge: security/03-networking-knowledge.md
-      - 3. Networking Knowledge (Resources): security/03-networking-knowledge-resources.md
-      - 4. Security Skills & Knowledge: security/04-security-skills-and-knowledge.md
-      - 4. Security Skills (Resources): security/04-security-skills-resources.md
-      - 5. Attack Types & Differences: security/05-attack-types-and-differences.md
-      - 5. Attack Types (Resources): security/05-attack-types-resources.md
-      - 6. Tools, Frameworks & Incident Response: security/06-tools-frameworks-incident-response.md
-      - 6. Tools & IR (Resources): security/06-tools-frameworks-ir-resources.md
-      - 7. Cloud Skills & Knowledge: security/07-cloud-skills-and-knowledge.md
-      - 7. Cloud Skills (Resources): security/07-cloud-skills-resources.md
-      - 8. Programming, Certifications & CTFs: security/08-programming-certifications-ctfs.md
-      - 8. Programming & CTFs (Resources): security/08-programming-certs-ctfs-resources.md
-      - 9. CISO Career Advice & Industry Insights: security/09-ciso-career-advice-and-industry-insights.md
-      - 9. CISO Career (Resources): security/09-ciso-career-resources.md
-      - 10. End-to-End Career Roadmap: security/10-end-to-end-career-roadmap.md
-      - 10. Cloud Security (Resources): security/10-cloud-security-resources.md
-      - Security Basics: security/security-basics.md
-      - OWASP Top 10: security/owasp-top-10.md
-      - Common Vulnerabilities: security/common-vulnerabilities.md
-      - Hardware & How Computers Work: security/Hardware_How_Computers_Work_Guide.md
-      - Cybersecurity Learning Roadmap (Part 2): security/cybersecurity-learning-roadmap-part-2.md
-      - Cybersecurity Study Tracker: security/cybersecurity-study-tracker.md
-      - Cybersecurity Projects Portfolio: security/Cybersecurity_Projects_Portfolio.md
+      - Overview:
+        - Security Roadmap: security/security-roadmap.md
+        - Security Basics: security/security-basics.md
+        - Cybersecurity Learning Roadmap (Part 2): security/cybersecurity-learning-roadmap-part-2.md
+      - Foundations:
+        - 1. Fundamental IT Skills: security/01-fundamental-it-skills.md
+        - 1. Fundamental IT Skills (Resources): security/01-fundamental-it-skills-resources.md
+        - 2. Operating Systems: security/02-operating-systems.md
+        - 2. Operating Systems (Resources): security/02-operating-systems-resources.md
+        - 3. Networking Knowledge: security/03-networking-knowledge.md
+        - 3. Networking Knowledge (Resources): security/03-networking-knowledge-resources.md
+        - Hardware & How Computers Work: security/Hardware_How_Computers_Work_Guide.md
+      - Core Security:
+        - 4. Security Skills & Knowledge: security/04-security-skills-and-knowledge.md
+        - 4. Security Skills (Resources): security/04-security-skills-resources.md
+        - 5. Attack Types & Differences: security/05-attack-types-and-differences.md
+        - 5. Attack Types (Resources): security/05-attack-types-resources.md
+        - OWASP Top 10: security/owasp-top-10.md
+        - Common Vulnerabilities: security/common-vulnerabilities.md
+      - Tools & Cloud:
+        - 6. Tools, Frameworks & Incident Response: security/06-tools-frameworks-incident-response.md
+        - 6. Tools & IR (Resources): security/06-tools-frameworks-ir-resources.md
+        - 7. Cloud Skills & Knowledge: security/07-cloud-skills-and-knowledge.md
+        - 7. Cloud Skills (Resources): security/07-cloud-skills-resources.md
+        - 10. Cloud Security (Resources): security/10-cloud-security-resources.md
+      - Career & Certifications:
+        - 8. Programming, Certifications & CTFs: security/08-programming-certifications-ctfs.md
+        - 8. Programming & CTFs (Resources): security/08-programming-certs-ctfs-resources.md
+        - 9. CISO Career Advice & Industry Insights: security/09-ciso-career-advice-and-industry-insights.md
+        - 9. CISO Career (Resources): security/09-ciso-career-resources.md
+        - 10. End-to-End Career Roadmap: security/10-end-to-end-career-roadmap.md
+      - Practice & Tracking:
+        - Cybersecurity Study Tracker: security/cybersecurity-study-tracker.md
+        - Cybersecurity Projects Portfolio: security/Cybersecurity_Projects_Portfolio.md
   - 🚀 DevSecOps:
       - DevSecOps Intro: devsecops/devsecops-intro.md
       - CI/CD Security: devsecops/cicd-security.md
