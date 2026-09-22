@@ -101,68 +101,105 @@ extra_css:
 nav:
   - 🏠 Home: index.md
   - ☁️ AWS:
-      - AWS Basics: aws/aws-basics.md
-      - EC2 Fundamentals: aws/ec2-fundamentals.md
-      - S3 Essentials: aws/s3-essentials.md
+      - Theory / Notes:
+        - AWS Basics: aws/aws-basics.md
+        - EC2 Fundamentals: aws/ec2-fundamentals.md
+        - S3 Essentials: aws/s3-essentials.md
   - 🎭 Playwright:
-      - Playwright Basics: playwright/playwright-basics.md
-      - Advanced Selectors: playwright/advanced-selectors.md
-      - Best Practices: playwright/best-practices.md
-      - TypeScript: playwright/typescript.md
+      - Theory / Notes:
+        - Playwright Basics: playwright/playwright-basics.md
+        - Advanced Selectors: playwright/advanced-selectors.md
+        - TypeScript: playwright/typescript.md
+      - Resources:
+        - Best Practices: playwright/best-practices.md
+      - Interview Questions:
+        - Automation Interview: interviews/automation-interview.md
   - 🔌 API Testing:
-      - API Fundamentals: api-testing/api-fundamentals.md
-      - API Interview Questions & Notes: api-testing/api-interview-questions.md
-      - REST Concepts: api-testing/rest-concepts.md
-      - Testing Tools: api-testing/testing-tools.md
-      - Playwright API Automation: api-testing/playwright-api-automation.md
+      - Theory / Notes:
+        - API Fundamentals: api-testing/api-fundamentals.md
+        - REST Concepts: api-testing/rest-concepts.md
+        - API Interview Questions & Notes: api-testing/api-interview-questions.md
+      - Resources:
+        - Testing Tools: api-testing/testing-tools.md
+        - Playwright API Automation: api-testing/playwright-api-automation.md
+      - Interview Questions:
+        - API Testing & Rest Assured: interviews/api-rest-assured-interview.md
   - 🧪 Testing:
-      - Python AI Automation Lab: testing/python-ai-automation.md
-      - SQL Notes & Practice: testing/sql-notes-practice.md
+      - Theory / Notes:
+        - Python AI Automation Lab: testing/python-ai-automation.md
+        - SQL Notes & Practice: testing/sql-notes-practice.md
+      - Interview Questions:
+        - Manual Testing Interview: interviews/manual-testing-interview.md
+        - QA Interview: interviews/qa-interview.md
+        - AI QA / SDET Interview Prep: interviews/AI-QA-SDET-Interview-Prep.md
+      - MCQ:
+        - General Knowledge & Current Affairs MCQs: primary-teacher/MCQ.md
   - 🧑‍🏫 Primary Teacher:
       - General Knowledge & Current Affairs MCQs: primary-teacher/MCQ.md
   - 🤖 AI Learning:
-      - Agents, RAG & LLM Courses: ai/ai-agents-rag-llm-courses.md
-      - Building AI Agents Resources: ai/Building-AI-Agents-Learning-Resources.md
-      - Universal AI Study Prompts: ai/50_Universal_AI_Study_Prompts.md
-      - Free AI Courses & Resources: ai/Free_AI_Courses_Resources.md
-      - Python + LLM Security Testing Roadmap: ai/python-llm-security-testing-roadmap.md
-      - AI Resources & Stanford Curriculum: ai/ai-resources.md
-      - Top GitHub Profiles for AI & Software Engineering: ai/topAIRepo.md
+      - Theory / Notes:
+        - Agents, RAG & LLM Courses: ai/ai-agents-rag-llm-courses.md
+        - AI Resources & Stanford Curriculum: ai/ai-resources.md
+        - Top GitHub Profiles for AI & Software Engineering: ai/topAIRepo.md
+      - Resources:
+        - Building AI Agents Resources: ai/Building-AI-Agents-Learning-Resources.md
+        - Universal AI Study Prompts: ai/50_Universal_AI_Study_Prompts.md
+        - Free AI Courses & Resources: ai/Free_AI_Courses_Resources.md
+        - Python + LLM Security Testing Roadmap: ai/python-llm-security-testing-roadmap.md
+      - Interview Questions:
+        - AI QA / SDET Interview Prep: interviews/AI-QA-SDET-Interview-Prep.md
   - 🔒 Security Testing:
       - Overview:
-        - Security Roadmap: security/security-roadmap.md
-        - Security Basics: security/security-basics.md
-        - Cybersecurity Learning Roadmap (Part 2): security/cybersecurity-learning-roadmap-part-2.md
+        - Security Roadmap: security/Overview/security-roadmap.md
+        - Security Basics: security/Overview/security-basics.md
+        - Cybersecurity Learning Roadmap (Part 2): security/Overview/cybersecurity-learning-roadmap-part-2.md
       - Foundations:
-        - 1. Fundamental IT Skills: security/01-fundamental-it-skills.md
-        - 1. Fundamental IT Skills (Resources): security/01-fundamental-it-skills-resources.md
-        - 2. Operating Systems: security/02-operating-systems.md
-        - 2. Operating Systems (Resources): security/02-operating-systems-resources.md
-        - 3. Networking Knowledge: security/03-networking-knowledge.md
-        - 3. Networking Knowledge (Resources): security/03-networking-knowledge-resources.md
-        - Hardware & How Computers Work: security/Hardware_How_Computers_Work_Guide.md
+        - IT Fundamentals:
+          - Theory / Notes: security/ITFundamnetal/01-fundamental-it-skills.md
+          - Resources: security/ITFundamnetal/01-fundamental-it-skills-resources.md
+          - Hardware & How Computers Work: security/ITFundamnetal/Hardware_How_Computers_Work_Guide.md
+        - Operating Systems:
+          - Theory / Notes: security/OperatingSystems/02-operating-systems.md
+          - Resources: security/OperatingSystems/02-operating-systems-resources.md
+        - Networking:
+          - Theory / Notes: security/Networking/03-networking-knowledge.md
+          - Resources: security/Networking/03-networking-knowledge-resources.md
       - Core Security:
-        - 4. Security Skills & Knowledge: security/04-security-skills-and-knowledge.md
-        - 4. Security Skills (Resources): security/04-security-skills-resources.md
-        - 5. Attack Types & Differences: security/05-attack-types-and-differences.md
-        - 5. Attack Types (Resources): security/05-attack-types-resources.md
-        - OWASP Top 10: security/owasp-top-10.md
-        - Common Vulnerabilities: security/common-vulnerabilities.md
+        - Security Skills:
+          - Theory / Notes: security/SecuritySkills/04-security-skills-and-knowledge.md
+          - Resources: security/SecuritySkills/04-security-skills-resources.md
+        - Attack Types:
+          - Theory / Notes: security/AttackTypes/05-attack-types-and-differences.md
+          - Resources: security/AttackTypes/05-attack-types-resources.md
+          - OWASP Top 10: security/AttackTypes/owasp-top-10.md
+          - Common Vulnerabilities: security/AttackTypes/common-vulnerabilities.md
       - Tools & Cloud:
-        - 6. Tools, Frameworks & Incident Response: security/06-tools-frameworks-incident-response.md
-        - 6. Tools & IR (Resources): security/06-tools-frameworks-ir-resources.md
-        - 7. Cloud Skills & Knowledge: security/07-cloud-skills-and-knowledge.md
-        - 7. Cloud Skills (Resources): security/07-cloud-skills-resources.md
-        - 10. Cloud Security (Resources): security/10-cloud-security-resources.md
+        - Tools & Incident Response:
+          - Theory / Notes: security/ToolsIncidentResponse/06-tools-frameworks-incident-response.md
+          - Resources: security/ToolsIncidentResponse/06-tools-frameworks-ir-resources.md
+        - Cloud Security:
+          - Theory / Notes: security/CloudSecurity/07-cloud-skills-and-knowledge.md
+          - Resources: security/CloudSecurity/07-cloud-skills-resources.md
+          - Cloud Security Resources: security/CloudSecurity/10-cloud-security-resources.md
       - Career & Certifications:
-        - 8. Programming, Certifications & CTFs: security/08-programming-certifications-ctfs.md
-        - 8. Programming & CTFs (Resources): security/08-programming-certs-ctfs-resources.md
-        - 9. CISO Career Advice & Industry Insights: security/09-ciso-career-advice-and-industry-insights.md
-        - 9. CISO Career (Resources): security/09-ciso-career-resources.md
-        - 10. End-to-End Career Roadmap: security/10-end-to-end-career-roadmap.md
+        - Programming, Certifications & CTFs:
+          - Theory / Notes: security/ProgrammingCertifications/08-programming-certifications-ctfs.md
+          - Resources: security/ProgrammingCertifications/08-programming-certs-ctfs-resources.md
+        - CISO Career:
+          - Theory / Notes: security/CISOCareer/09-ciso-career-advice-and-industry-insights.md
+          - Resources: security/CISOCareer/09-ciso-career-resources.md
+        - Career Roadmap:
+          - End-to-End Career Roadmap: security/CareerRoadmap/10-end-to-end-career-roadmap.md
       - Practice & Tracking:
-        - Cybersecurity Study Tracker: security/cybersecurity-study-tracker.md
-        - Cybersecurity Projects Portfolio: security/Cybersecurity_Projects_Portfolio.md
+        - Cybersecurity Study Tracker: security/PracticeTracking/cybersecurity-study-tracker.md
+        - Cybersecurity Projects Portfolio: security/PracticeTracking/Cybersecurity_Projects_Portfolio.md
+      - Interview Questions:
+        - QA Interview: interviews/qa-interview.md
+        - Automation Interview: interviews/automation-interview.md
+        - AI QA / SDET Interview Prep: interviews/AI-QA-SDET-Interview-Prep.md
+        - API Testing & Rest Assured: interviews/api-rest-assured-interview.md
+      - MCQ:
+        - General Knowledge & Current Affairs MCQs: primary-teacher/MCQ.md
   - 🚀 DevSecOps:
       - DevSecOps Intro: devsecops/devsecops-intro.md
       - CI/CD Security: devsecops/cicd-security.md
