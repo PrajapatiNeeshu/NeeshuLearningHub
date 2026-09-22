@@ -1,13 +1,16 @@
 site_name: Neeshu Learning Hub
-site_description: Professional Learning Portal for QA Automation Engineers
+site_description: Professional learning portal for QA automation engineers
 site_author: Neeshu Kumar
 site_url: https://PrajapatiNeeshu.github.io/NeeshuLearningHub/
 repo_url: https://github.com/PrajapatiNeeshu/NeeshuLearningHub
 repo_name: GitHub Repository
+docs_dir: docs
+site_dir: site
+
 theme:
   name: material
   logo: assets/logo.svg
-  favicon: assets/favicon.ico
+  favicon: assets/logo.svg
   palette:
     # Dark theme (default)
     - scheme: slate
