@@ -150,4 +150,4 @@ The following six-step method works across operating systems and is based on the
 - [ ] Check which wireless interfaces are enabled and disable unused interfaces.
 - [ ] Enable MFA and review sign-in activity for a cloud productivity account.
 
-**Next:** Continue to [Security Roadmap](security-roadmap.md) and then study operating systems as the next roadmap stage.
+**Next:** Continue to [Security Roadmap](../Overview/security-roadmap.md) and then study operating systems as the next roadmap stage.

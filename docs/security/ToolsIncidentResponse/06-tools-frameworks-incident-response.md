@@ -1,6 +1,6 @@
 # Section 6: Tools, Frameworks, and Incident Response
 
-> **Difficulty:** Intermediate-Advanced | **Prerequisite:** [Sections 1-5](05-attack-types-and-differences.md)
+> **Difficulty:** Intermediate-Advanced | **Prerequisite:** [Sections 1-5](../AttackTypes/05-attack-types-and-differences.md)
 
 Security professionals use tools to discover assets, analyze evidence, detect threats, and respond consistently. Use scanning, packet capture, malware analysis, and penetration-testing tools only with explicit authorization.
 
@@ -244,4 +244,4 @@ Security distributions are toolboxes, not permission to scan or attack systems. 
 - Know where Windows, Linux, firewall, network, and application logs are stored.
 - LOLBAS and GTFOBins describe how legitimate tools can be abused, so monitor their use.
 
-**Next:** Continue to [Security Roadmap](security-roadmap.md), then study cloud skills and knowledge.
+**Next:** Continue to [Security Roadmap](../Overview/security-roadmap.md), then study cloud skills and knowledge.

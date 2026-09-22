@@ -250,4 +250,4 @@ def test_api_security():
 
 ---
 
-**Next**: Continue to [OWASP Top 10](owasp-top-10.md)
+**Next**: Continue to [OWASP Top 10](../AttackTypes/owasp-top-10.md)

@@ -1,6 +1,6 @@
 # Section 8: Programming, Certifications, and CTFs
 
-> **Difficulty:** All levels | **Prerequisite:** [Sections 1-7](07-cloud-skills-and-knowledge.md)
+> **Difficulty:** All levels | **Prerequisite:** [Sections 1-7](../CloudSecurity/07-cloud-skills-and-knowledge.md)
 
 Programming helps you build security tools and automate repetitive work. Certifications provide structured goals, and Capture the Flag (CTF) platforms provide authorized environments for practice.
 
@@ -202,4 +202,4 @@ Build evidence through a home lab, CTF write-ups where allowed, scripts, detecti
 - A portfolio demonstrates applied ability beyond an exam score.
 - Security changes constantly, so current documentation and continuous learning matter.
 
-**Next:** Continue to [Security Roadmap](security-roadmap.md), then study CISO career advice and industry insights.
+**Next:** Continue to [Security Roadmap](../Overview/security-roadmap.md), then study CISO career advice and industry insights.

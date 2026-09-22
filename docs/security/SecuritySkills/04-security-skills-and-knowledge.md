@@ -1,6 +1,6 @@
 # Section 4: Security Skills and Knowledge
 
-> **Difficulty:** Intermediate | **Prerequisite:** [Sections 1-3](03-networking-knowledge.md)
+> **Difficulty:** Intermediate | **Prerequisite:** [Sections 1-3](../Networking/03-networking-knowledge.md)
 
 This is the core of cybersecurity: the concepts, defenses, and mindset used to protect systems and data.
 
@@ -262,4 +262,4 @@ Follow the **3-2-1 rule**: keep three copies of data, on two different storage t
 - Hardening removes unnecessary functionality and access.
 - Backups and tested recovery protect availability and resilience.
 
-**Next:** Continue to [Security Roadmap](security-roadmap.md), then study attack types and their differences.
+**Next:** Continue to [Security Roadmap](../Overview/security-roadmap.md), then study attack types and their differences.

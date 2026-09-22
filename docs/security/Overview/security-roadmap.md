@@ -58,7 +58,7 @@ KEEP LEARNING
 
 Learn how computers, storage, memory, operating systems, applications, and users work together. Understand files and permissions, virtualization, troubleshooting, and the difference between local and network resources.
 
-Read the detailed [Fundamental IT Skills](01-fundamental-it-skills.md) notes.
+Read the detailed [Fundamental IT Skills](../ITFundamnetal/01-fundamental-it-skills.md) notes.
 
 **Checkpoint:** Explain what happens from pressing the power button to opening a web application, and identify where confidentiality, integrity, and availability can fail.
 
@@ -66,7 +66,7 @@ Read the detailed [Fundamental IT Skills](01-fundamental-it-skills.md) notes.
 
 Build daily administration skills in Windows and Linux, with basic macOS familiarity. Focus on users and groups, processes, services, logs, package updates, file permissions, environment variables, and scheduled tasks.
 
-Read the detailed [Operating Systems](02-operating-systems.md) notes.
+Read the detailed [Operating Systems](../OperatingSystems/02-operating-systems.md) notes.
 
 **Checkpoint:** Create a least-privilege user, locate authentication logs, apply updates, and explain why administrator access should not be used for routine work.
 
@@ -74,7 +74,7 @@ Read the detailed [Operating Systems](02-operating-systems.md) notes.
 
 Study the OSI and TCP/IP models, IPv4 and IPv6, subnetting, routing, switching, TCP and UDP, HTTP/S, SSH, DNS, DHCP, SMTP, and common ports. Then learn how firewalls, proxies, VPNs, and network segmentation reduce risk.
 
-Read the detailed [Networking Knowledge](03-networking-knowledge.md) notes.
+Read the detailed [Networking Knowledge](../Networking/03-networking-knowledge.md) notes.
 
 **Checkpoint:** Use an authorized lab to trace a DNS lookup and an HTTPS request, identify the involved ports, and explain where TLS protects data.
 
@@ -82,13 +82,13 @@ Read the detailed [Networking Knowledge](03-networking-knowledge.md) notes.
 
 Start with the CIA triad, authentication, authorization, accounting, risk, threats, vulnerabilities, controls, and defense in depth. Continue with secure configuration, patch management, vulnerability management, logging, monitoring, and security testing.
 
-Read the detailed [Security Skills and Knowledge](04-security-skills-and-knowledge.md) notes.
+Read the detailed [Security Skills and Knowledge](../SecuritySkills/04-security-skills-and-knowledge.md) notes.
 
 Continue with the existing notes:
 
 - [Security Basics](security-basics.md)
-- [OWASP Top 10](owasp-top-10.md)
-- [Common Vulnerabilities](common-vulnerabilities.md)
+- [OWASP Top 10](../AttackTypes/owasp-top-10.md)
+- [Common Vulnerabilities](../AttackTypes/common-vulnerabilities.md)
 
 **Checkpoint:** Threat-model a small web application, identify its assets and trust boundaries, and choose preventive, detective, and corrective controls.
 
@@ -96,7 +96,7 @@ Continue with the existing notes:
 
 Learn the purpose and indicators of phishing, credential stuffing, malware, ransomware, denial-of-service, SQL injection, cross-site scripting, CSRF, SSRF, privilege escalation, man-in-the-middle attacks, and supply-chain attacks.
 
-Read the detailed [Attack Types and Differences](05-attack-types-and-differences.md) notes.
+Read the detailed [Attack Types and Differences](../AttackTypes/05-attack-types-and-differences.md) notes.
 
 Study each attack with four questions: What is the prerequisite? What is the impact? What evidence does it leave? Which control prevents or limits it?
 
@@ -106,7 +106,7 @@ Study each attack with four questions: What is the prerequisite? What is the imp
 
 Become comfortable with tools such as Wireshark, Nmap, OWASP ZAP, Burp Suite, vulnerability scanners, SIEM platforms, and endpoint security tools. Use frameworks to make decisions consistent:
 
-Read the detailed [Tools, Frameworks, and Incident Response](06-tools-frameworks-incident-response.md) notes.
+Read the detailed [Tools, Frameworks, and Incident Response](../ToolsIncidentResponse/06-tools-frameworks-incident-response.md) notes.
 
 - **MITRE ATT&CK:** Describe adversary tactics and techniques.
 - **NIST Cybersecurity Framework:** Organize identify, protect, detect, respond, and recover activities.
@@ -118,7 +118,7 @@ Read the detailed [Tools, Frameworks, and Incident Response](06-tools-frameworks
 
 Learn shared responsibility, identity and access management, network security groups, virtual networks, object storage, key management, secrets, monitoring, backups, containers, serverless functions, and infrastructure as code.
 
-Read the detailed [Cloud Skills and Knowledge](07-cloud-skills-and-knowledge.md) notes.
+Read the detailed [Cloud Skills and Knowledge](../CloudSecurity/07-cloud-skills-and-knowledge.md) notes.
 
 Practice least privilege, separation of environments, secure defaults, centralized logging, policy-as-code, and cost-aware security controls across AWS, Azure, or GCP.
 
@@ -128,7 +128,7 @@ Practice least privilege, separation of environments, secure defaults, centraliz
 
 Use Python, Bash, PowerShell, and basic SQL to automate investigation and testing tasks. Learn secure coding, regular expressions, JSON, HTTP clients, parsing, and error handling. Keep scripts small, logged, tested, and safe to rerun.
 
-Read the detailed [Programming, Certifications, and CTFs](08-programming-certifications-ctfs.md) notes.
+Read the detailed [Programming, Certifications, and CTFs](../ProgrammingCertifications/08-programming-certifications-ctfs.md) notes.
 
 Certifications can provide structure, but projects and evidence matter too. Possible paths include Security+, Network+, cloud security certifications, eJPT, PNPT, OSCP, and role-specific credentials. Choose based on your target role and experience rather than collecting certificates without practice.
 
@@ -140,7 +140,7 @@ Capture The Flag challenges are useful for learning enumeration, web security, c
 
 Security careers include security engineering, application security, cloud security, detection engineering, penetration testing, governance risk and compliance, digital forensics, and security leadership. Build depth in one area while maintaining enough breadth to collaborate across teams.
 
-Read the detailed [CISO Career Advice and Industry Insights](09-ciso-career-advice-and-industry-insights.md) notes.
+Read the detailed [CISO Career Advice and Industry Insights](../CISOCareer/09-ciso-career-advice-and-industry-insights.md) notes.
 
 At senior levels, communicate risk in business terms: likelihood, impact, control effectiveness, residual risk, ownership, and investment. A strong security strategy connects people, process, and technology and measures outcomes rather than tool counts.
 
@@ -150,7 +150,7 @@ At senior levels, communicate risk in business terms: likelihood, impact, contro
 
 Bring the roadmap together with these cloud security themes:
 
-For a combined IT Support, CCNA, Ethical Hacking, and SOC Analyst career plan, use the [End-to-End Career Roadmap](10-end-to-end-career-roadmap.md).
+For a combined IT Support, CCNA, Ethical Hacking, and SOC Analyst career plan, use the [End-to-End Career Roadmap](../CareerRoadmap/10-end-to-end-career-roadmap.md).
 
 - Identity-first architecture and just-in-time access
 - Secure network segmentation and private service connectivity
@@ -186,4 +186,4 @@ For a combined IT Support, CCNA, Ethical Hacking, and SOC Analyst career plan, u
 - Prefer reversible changes and keep evidence for authorized investigations.
 - Remove temporary cloud resources when the lab is complete.
 
-**Next:** Begin with [Security Basics](security-basics.md), then continue to [OWASP Top 10](owasp-top-10.md).
+**Next:** Begin with [Security Basics](security-basics.md), then continue to [OWASP Top 10](../AttackTypes/owasp-top-10.md).

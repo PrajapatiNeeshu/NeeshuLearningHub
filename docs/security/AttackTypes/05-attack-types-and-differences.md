@@ -1,6 +1,6 @@
 # Section 5: Attack Types and Differences
 
-> **Difficulty:** Intermediate | **Prerequisite:** [Sections 1-4](04-security-skills-and-knowledge.md)
+> **Difficulty:** Intermediate | **Prerequisite:** [Sections 1-4](../SecuritySkills/04-security-skills-and-knowledge.md)
 
 Understanding attack patterns helps defenders choose controls, recognize indicators, and respond quickly. Practice only in systems you own or are explicitly authorized to assess.
 
@@ -170,4 +170,4 @@ Use strong Wi-Fi encryption, update access points, change default credentials, s
 - Never use WEP or legacy WPA; prefer WPA2-AES or WPA3.
 - Ransomware resilience depends on tested, protected backups and practiced response.
 
-**Next:** Continue to [Security Roadmap](security-roadmap.md), then study tools, frameworks, and incident response.
+**Next:** Continue to [Security Roadmap](../Overview/security-roadmap.md), then study tools, frameworks, and incident response.

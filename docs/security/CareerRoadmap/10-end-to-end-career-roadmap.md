@@ -321,4 +321,4 @@ Use `Not started`, `In progress`, or `Done`, and record the lab, project, or evi
 - Remove secrets and personal data from reports and repositories.
 - Snapshot before experiments and keep a rollback plan.
 
-**Next:** Return to the [Security Roadmap](security-roadmap.md) and continue with the cloud-security focus area.
+**Next:** Return to the [Security Roadmap](../Overview/security-roadmap.md) and continue with the cloud-security focus area.

@@ -1,6 +1,6 @@
 # Section 3: Networking Knowledge
 
-> **Difficulty:** Beginner-Intermediate | **Prerequisite:** [Sections 1-2](02-operating-systems.md)
+> **Difficulty:** Beginner-Intermediate | **Prerequisite:** [Sections 1-2](../OperatingSystems/02-operating-systems.md)
 
 Networking is the backbone of cybersecurity. If you understand how data moves, you can reason about where to protect it, monitor it, and investigate attacks.
 
@@ -310,4 +310,4 @@ Use MFA, short-lived credentials, least privilege, certificate lifecycle managem
 - Network segmentation limits lateral movement after a compromise.
 - The TCP handshake is SYN, SYN-ACK, ACK.
 
-**Next:** Continue to [Security Roadmap](security-roadmap.md) and then study [Security Basics](security-basics.md).
+**Next:** Continue to [Security Roadmap](../Overview/security-roadmap.md) and then study [Security Basics](../Overview/security-basics.md).

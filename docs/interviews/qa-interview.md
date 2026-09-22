@@ -367,7 +367,7 @@ Severity (Impact)     × Priority (Urgency)
 For more details see:
 - [Playwright Best Practices](../playwright/best-practices.md)
 - [API Testing](../api-testing/api-fundamentals.md)
-- [Security Testing](../security/security-basics.md)
+- [Security Testing](../security/Overview/security-basics.md)
 
 ---
 

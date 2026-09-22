@@ -135,7 +135,7 @@ Build a small e-commerce test workspace and ask Ruflo to:
 4. Generate Playwright and API tests, then run them in CI.
 5. Review the generated changes and inspect the validation evidence.
 
-This project connects Ruflo to the existing [API Testing](../api-testing/api-fundamentals.md), [Playwright](../playwright/playwright-basics.md), [Security Testing](../security/security-basics.md), and [DevSecOps](../devsecops/devsecops-intro.md) material.
+This project connects Ruflo to the existing [API Testing](../api-testing/api-fundamentals.md), [Playwright](../playwright/playwright-basics.md), [Security Testing](../security/Overview/security-basics.md), and [DevSecOps](../devsecops/devsecops-intro.md) material.
 
 ## Official Documentation Map
 

@@ -77,8 +77,8 @@
 - [ ] Identify vulnerabilities
 
 **Resources:**
-- [Security Basics](../security/security-basics.md)
-- [OWASP Top 10](../security/owasp-top-10.md)
+- [Security Basics](../security/Overview/security-basics.md)
+- [OWASP Top 10](../security/AttackTypes/owasp-top-10.md)
 
 ### Week 15-16: Performance Testing
 - [ ] Load testing concepts

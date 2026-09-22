@@ -65,7 +65,7 @@ This portal is your go-to resource for comprehensive learning materials across m
 | [AWS Basics](aws/aws-basics.md) | Start with cloud fundamentals |
 | [Playwright Basics](playwright/playwright-basics.md) | Browser automation essentials |
 | [API Testing](api-testing/api-fundamentals.md) | API testing from scratch |
-| [Security](security/owasp-top-10.md) | Security vulnerabilities and fixes |
+| [Security](security/AttackTypes/owasp-top-10.md) | Security vulnerabilities and fixes |
 | [DevSecOps](devsecops/devsecops-intro.md) | Security in CI/CD pipeline |
 
 ---

@@ -187,7 +187,7 @@ pip install pytest playwright requests
 ### READMEs in This Portal
 - [Playwright Basics](../playwright/playwright-basics.md)
 - [API Fundamentals](../api-testing/api-fundamentals.md)
-- [Security Basics](../security/security-basics.md)
+- [Security Basics](../security/Overview/security-basics.md)
 - [AWS Basics](../aws/aws-basics.md)
 
 ---

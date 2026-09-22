@@ -1,6 +1,6 @@
 # Section 2: Operating Systems
 
-> **Difficulty:** Beginner | **Prerequisite:** [Section 1: Fundamental IT Skills](01-fundamental-it-skills.md)
+> **Difficulty:** Beginner | **Prerequisite:** [Section 1: Fundamental IT Skills](../ITFundamnetal/01-fundamental-it-skills.md)
 
 You must understand operating systems deeply because many attacks target operating-system services, permissions, processes, and vulnerabilities.
 
@@ -289,4 +289,4 @@ Install software from trusted sources, verify signatures or checksums when avail
 - Know where sensitive accounts, logs, configuration, and name-resolution files live.
 - Use Kali Linux or Parrot OS only for authorized security testing.
 
-**Next:** Continue to [Security Roadmap](security-roadmap.md), then study networking as the next roadmap stage.
+**Next:** Continue to [Security Roadmap](../Overview/security-roadmap.md), then study networking as the next roadmap stage.

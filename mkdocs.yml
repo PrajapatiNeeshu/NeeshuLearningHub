@@ -126,8 +126,8 @@ nav:
         - API Testing & Rest Assured: interviews/api-rest-assured-interview.md
   - 🧪 Testing:
       - Theory / Notes:
-        - Python AI Automation Lab: testing/python-ai-automation.md
-        - SQL Notes & Practice: testing/sql-notes-practice.md
+          - Python AI Automation Lab: testing/python/python-ai-automation.md
+          - SQL Notes & Practice: testing/sql-notes-practice.md
       - Interview Questions:
         - Manual Testing Interview: interviews/manual-testing-interview.md
         - QA Interview: interviews/qa-interview.md

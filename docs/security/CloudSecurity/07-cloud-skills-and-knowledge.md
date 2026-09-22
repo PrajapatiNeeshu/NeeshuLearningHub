@@ -1,6 +1,6 @@
 # Section 7: Cloud Skills and Knowledge
 
-> **Difficulty:** Intermediate | **Prerequisite:** [Sections 1-6](06-tools-frameworks-incident-response.md)
+> **Difficulty:** Intermediate | **Prerequisite:** [Sections 1-6](../ToolsIncidentResponse/06-tools-frameworks-incident-response.md)
 
 Cloud is where much modern infrastructure runs. Secure cloud design requires understanding the platform, the provider's responsibilities, and the controls your organization must configure.
 
@@ -201,4 +201,4 @@ Design for failure with multiple availability zones where appropriate, tested ba
 - Public storage exposure is preventable with default-deny access and continuous monitoring.
 - Cloud security is a continuous operating practice, not a one-time deployment task.
 
-**Next:** Continue to [Security Roadmap](security-roadmap.md), then study programming, certifications, and CTFs.
+**Next:** Continue to [Security Roadmap](../Overview/security-roadmap.md), then study programming, certifications, and CTFs.
