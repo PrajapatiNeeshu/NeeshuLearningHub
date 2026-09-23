@@ -201,18 +201,24 @@ nav:
       - MCQ:
         - General Knowledge & Current Affairs MCQs: primary-teacher/MCQ.md
   - 🚀 DevSecOps:
-      - DevSecOps Intro: devsecops/devsecops-intro.md
-      - CI/CD Security: devsecops/cicd-security.md
+      - Theory / Notes:
+        - DevSecOps Intro: devsecops/devsecops-intro.md
+      - Resources:
+        - CI/CD Security: devsecops/cicd-security.md
   - 💼 Interview Questions:
-      - Manual Testing Interview Questions: interviews/manual-testing-interview.md
-      - QA Interview: interviews/qa-interview.md
-      - Automation Interview: interviews/automation-interview.md
-      - API Testing & Rest Assured: interviews/api-rest-assured-interview.md
-      - AI QA / SDET Interview Prep: interviews/AI-QA-SDET-Interview-Prep.md
-      - Python Coding Interview Programs for SDET: interviews/Python_Coding_Interview_Programs_For_SDET.md
-      - SDET API Testing Interview Guide: interviews/SDET_API_Testing_Interview_Guide_Java_RestAssured_Playwright_Python.md
-      - SDET Java Coding Interview Preparation: interviews/SDET_Java_Coding_Interview_Preparation.md
-      - SDET QA & SQL Interview Preparation: interviews/SDET_QA_SQL_Interview_Preparation_Guide.md
+      - Manual & QA:
+        - Manual Testing Interview Questions: interviews/manual-testing-interview.md
+        - QA Interview: interviews/qa-interview.md
+      - Automation & API:
+        - Automation Interview: interviews/automation-interview.md
+        - API Testing & Rest Assured: interviews/api-rest-assured-interview.md
+        - SDET API Testing Interview Guide: interviews/SDET_API_Testing_Interview_Guide_Java_RestAssured_Playwright_Python.md
+      - AI & SDET:
+        - AI QA / SDET Interview Prep: interviews/AI-QA-SDET-Interview-Prep.md
+      - Coding & SQL:
+        - Python Coding Interview Programs for SDET: interviews/Python_Coding_Interview_Programs_For_SDET.md
+        - SDET Java Coding Interview Preparation: interviews/SDET_Java_Coding_Interview_Preparation.md
+        - SDET QA & SQL Interview Preparation: interviews/SDET_QA_SQL_Interview_Preparation_Guide.md
   - 💼 Jobs:
       - UAE Jobs: jobs/uae-jobs.md
       - Direct Apply Company Links: jobs/direct-apply.md
@@ -221,11 +227,15 @@ nav:
       - All Good Companies: jobs/allGoodCompnay.md
       - LinkedIn & Career Pages: jobs/company_linkedin_careers.md
   - 📚 Resources:
-      - Learning Path: resources/learning-path.md
-      - Tools & References: resources/tools-and-references.md
-      - Ruflo AI Agent Orchestration: resources/ruflo.md
-      - Best Free AI Courses: resources/ai-courses.md
-      - Free Certifications: resources/free-certifications.md
-      - Useful Links: resources/useful-links.md
-      - Tools (Paid vs Free): resources/tools.md
+      - Learning & Career:
+        - Learning Path: resources/learning-path.md
+        - Best Free AI Courses: resources/ai-courses.md
+        - Free Certifications: resources/free-certifications.md
+      - Tools & References:
+        - Tools & References: resources/tools-and-references.md
+        - Ruflo AI Agent Orchestration: resources/ruflo.md
+        - Useful Links: resources/useful-links.md
+        - Tools (Paid vs Free): resources/tools.md
+        - CMS & Architecture:
+          - Custom Blog CMS Requirements: resources/custom-cms-requirements.md
   - 💬 Contact Us: contact.md
