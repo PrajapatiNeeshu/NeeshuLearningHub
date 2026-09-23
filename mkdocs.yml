@@ -220,12 +220,18 @@ nav:
         - SDET Java Coding Interview Preparation: interviews/SDET_Java_Coding_Interview_Preparation.md
         - SDET QA & SQL Interview Preparation: interviews/SDET_QA_SQL_Interview_Preparation_Guide.md
   - 💼 Jobs:
-      - UAE Jobs: jobs/uae-jobs.md
-      - Direct Apply Company Links: jobs/direct-apply.md
-      - Remote Company Jobs: jobs/remote.md
-      - Recruitment & Tech Companies: jobs/tech-companies-and-agencies.md
-      - All Good Companies: jobs/allGoodCompnay.md
-      - LinkedIn & Career Pages: jobs/company_linkedin_careers.md
+      - UAE Jobs:
+        - UAE Jobs: jobs/uae-jobs/uae-jobs.md
+      - Direct Apply Company Links:
+        - Direct Apply Company Links: jobs/direct-apply/direct-apply.md
+      - Remote Company Jobs:
+        - Remote Company Jobs: jobs/remote/remote.md
+      - Recruitment & Tech Companies:
+        - Recruitment & Tech Companies: jobs/tech-companies-and-agencies/tech-companies-and-agencies.md
+      - All Good Companies:
+        - All Good Companies: jobs/all-good-companies/allGoodCompnay.md
+      - LinkedIn & Career Pages:
+        - LinkedIn & Career Pages: jobs/company-linkedin-careers/company_linkedin_careers.md
   - 📚 Resources:
       - Learning & Career:
         - Learning Path: resources/learning-path.md
