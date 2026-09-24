@@ -110,6 +110,9 @@ nav:
         - Playwright Basics: playwright/playwright-basics.md
         - Advanced Selectors: playwright/advanced-selectors.md
         - TypeScript: playwright/typescript.md
+        - Playwright Notes:
+            - Introduction:
+                - CH1: "playwright/Playwright Notes/Introduction/CH1/CH1.MD"
       - Resources:
         - Best Practices: playwright/best-practices.md
       - Interview Questions:
