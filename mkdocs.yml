@@ -80,6 +80,7 @@ plugins:
       pipeline:
         - stemmer
         - stopWordFilter
+  - tags
   - glightbox:
       skip_classes:
         - no-lightbox
@@ -100,151 +101,159 @@ extra_css:
   - assets/stylesheets/custom.css
 nav:
   - 🏠 Home: index.md
+
   - ☁️ AWS:
-      - Theory / Notes:
-        - AWS Basics: aws/aws-basics.md
-        - EC2 Fundamentals: aws/ec2-fundamentals.md
-        - S3 Essentials: aws/s3-essentials.md
+      - Overview:
+          - AWS Notes: aws/aws-basics.md
+          - EC2 Fundamentals: aws/ec2-fundamentals.md
+          - S3 Essentials: aws/s3-essentials.md
+      - Learning Paths:
+          - Certifications: certifications/index.md
+          - Study Roadmaps: study-roadmaps/index.md
+      - Projects:
+          - AWS Projects: projects/index.md
+
   - 🎭 Playwright:
-      - Theory / Notes:
-        - Playwright Basics: playwright/playwright-basics.md
-        - Advanced Selectors: playwright/advanced-selectors.md
-        - TypeScript: playwright/typescript.md
-        - Playwright Notes:
-            - Introduction:
-                - CH1: "playwright/Playwright Notes/Introduction/CH1/CH1.MD"
-      - Resources:
-        - Best Practices: playwright/best-practices.md
+      - Getting Started:
+          - Playwright Basics: playwright/playwright-basics.md
+          - Advanced Selectors: playwright/advanced-selectors.md
+          - TypeScript: playwright/typescript.md
+      - Notes:
+          - Playwright Notes: playwright/Playwright Notes/Introduction/CH1/CH1.MD
       - Interview Questions:
-        - Automation Interview: interviews/automation-interview.md
+          - Playwright Interview: interviews/automation-interview.md
+          - Framework: playwright/framework/index.md
+
   - 🔌 API Testing:
-      - Theory / Notes:
-        - API Fundamentals: api-testing/api-fundamentals.md
-        - REST Concepts: api-testing/rest-concepts.md
-        - API Interview Questions & Notes: api-testing/api-interview-questions.md
-      - Resources:
-        - Testing Tools: api-testing/testing-tools.md
-        - Playwright API Automation: api-testing/playwright-api-automation.md
-      - Interview Questions:
-        - API Testing & Rest Assured: interviews/api-rest-assured-interview.md
+      - Fundamentals:
+          - API Fundamentals: api-testing/api-fundamentals.md
+          - REST Concepts: api-testing/rest-concepts.md
+          - Testing Tools: api-testing/testing-tools.md
+      - Notes:
+          - API Notes: api-testing/notes/index.md
+          - Playwright API Automation: api-testing/playwright-api-automation.md
+      - Categories:
+          - REST API: api-testing/rest-api/index.md
+          - FastAPI: api-testing/fastapi/index.md
+          - GraphQL: api-testing/graphql/index.md
+
   - 🧪 Testing:
-      - Theory / Notes:
-          - Python AI Automation Lab: testing/python/python-ai-automation.md
+      - Manual Testing:
+          - Manual Testing Notes: testing/manual-testing/index.md
+          - Manual Testing Interview: interviews/manual-testing-interview.md
+      - Automation:
+          - Automation Testing: testing/automation/index.md
+          - QA Interview: interviews/qa-interview.md
+      - Practice:
           - SQL Notes & Practice: testing/sql-notes-practice.md
-      - Interview Questions:
-        - Manual Testing Interview: interviews/manual-testing-interview.md
-        - QA Interview: interviews/qa-interview.md
-        - AI QA / SDET Interview Prep: interviews/AI-QA-SDET-Interview-Prep.md
+          - Python AI Automation Lab: testing/python/python-ai-automation.md
+
+  - 👨‍🏫 Primary Teacher:
       - MCQ:
-        - General Knowledge & Current Affairs MCQs: primary-teacher/MCQ.md
-  - 🧑‍🏫 Primary Teacher:
-      - General Knowledge & Current Affairs MCQs: primary-teacher/MCQ.md
+          - Current Affairs MCQ: primary-teacher/MCQ.md
+      - Notes:
+          - Teacher Notes: primary-teacher/notes/index.md
+
   - 🤖 AI Learning:
-      - Theory / Notes:
-        - Agents, RAG & LLM Courses: ai/ai-agents-rag-llm-courses.md
-        - AI Resources & Stanford Curriculum: ai/ai-resources.md
-        - Top GitHub Profiles for AI & Software Engineering: ai/topAIRepo.md
-      - Resources:
-        - Building AI Agents Resources: ai/Building-AI-Agents-Learning-Resources.md
-        - Universal AI Study Prompts: ai/50_Universal_AI_Study_Prompts.md
-        - Free AI Courses & Resources: ai/Free_AI_Courses_Resources.md
-        - Python + LLM Security Testing Roadmap: ai/python-llm-security-testing-roadmap.md
-      - Interview Questions:
-        - AI QA / SDET Interview Prep: interviews/AI-QA-SDET-Interview-Prep.md
+      - Foundations:
+          - AI Resources: ai/ai-resources.md
+          - AI Courses: ai/ai-courses.md
+          - Top AI Repositories: ai/topAIRepo.md
+      - Agents & LLM:
+          - AI Agents: ai-learning/agents/index.md
+          - RAG & LLM Courses: ai/ai-agents-rag-llm-courses.md
+          - Free AI Courses: ai/Free_AI_Courses_Resources.md
+      - Testing:
+          - AI Testing: ai-learning/testing/index.md
+          - Prompt Testing: interview-questions/ai-testing/prompt-testing/index.md
+
   - 🔒 Security Testing:
       - Overview:
-        - Security Roadmap: security/Overview/security-roadmap.md
-        - Security Basics: security/Overview/security-basics.md
-        - Cybersecurity Learning Roadmap (Part 2): security/Overview/cybersecurity-learning-roadmap-part-2.md
+          - Security Roadmap: security/Overview/security-roadmap.md
+          - Security Basics: security/Overview/security-basics.md
       - Foundations:
-        - IT Fundamentals:
-          - Theory / Notes: security/ITFundamnetal/01-fundamental-it-skills.md
-          - Resources: security/ITFundamnetal/01-fundamental-it-skills-resources.md
-          - Hardware & How Computers Work: security/ITFundamnetal/Hardware_How_Computers_Work_Guide.md
-        - Operating Systems:
-          - Theory / Notes: security/OperatingSystems/02-operating-systems.md
-          - Resources: security/OperatingSystems/02-operating-systems-resources.md
-        - Networking:
-          - Theory / Notes: security/Networking/03-networking-knowledge.md
-          - Resources: security/Networking/03-networking-knowledge-resources.md
-      - Core Security:
-        - Security Skills:
-          - Theory / Notes: security/SecuritySkills/04-security-skills-and-knowledge.md
-          - Resources: security/SecuritySkills/04-security-skills-resources.md
-        - Attack Types:
-          - Theory / Notes: security/AttackTypes/05-attack-types-and-differences.md
-          - Resources: security/AttackTypes/05-attack-types-resources.md
-          - OWASP Top 10: security/AttackTypes/owasp-top-10.md
-          - Common Vulnerabilities: security/AttackTypes/common-vulnerabilities.md
-      - Tools & Cloud:
-        - Tools & Incident Response:
-          - Theory / Notes: security/ToolsIncidentResponse/06-tools-frameworks-incident-response.md
-          - Resources: security/ToolsIncidentResponse/06-tools-frameworks-ir-resources.md
-        - Cloud Security:
-          - Theory / Notes: security/CloudSecurity/07-cloud-skills-and-knowledge.md
-          - Resources: security/CloudSecurity/07-cloud-skills-resources.md
-          - Cloud Security Resources: security/CloudSecurity/10-cloud-security-resources.md
-      - Career & Certifications:
-        - Programming, Certifications & CTFs:
-          - Theory / Notes: security/ProgrammingCertifications/08-programming-certifications-ctfs.md
-          - Resources: security/ProgrammingCertifications/08-programming-certs-ctfs-resources.md
-        - CISO Career:
-          - Theory / Notes: security/CISOCareer/09-ciso-career-advice-and-industry-insights.md
-          - Resources: security/CISOCareer/09-ciso-career-resources.md
-        - Career Roadmap:
-          - End-to-End Career Roadmap: security/CareerRoadmap/10-end-to-end-career-roadmap.md
-      - Practice & Tracking:
-        - Cybersecurity Study Tracker: security/PracticeTracking/cybersecurity-study-tracker.md
-        - Cybersecurity Projects Portfolio: security/PracticeTracking/Cybersecurity_Projects_Portfolio.md
-      - Interview Questions:
-        - QA Interview: interviews/qa-interview.md
-        - Automation Interview: interviews/automation-interview.md
-        - AI QA / SDET Interview Prep: interviews/AI-QA-SDET-Interview-Prep.md
-        - API Testing & Rest Assured: interviews/api-rest-assured-interview.md
-      - MCQ:
-        - General Knowledge & Current Affairs MCQs: primary-teacher/MCQ.md
+          - IT Fundamentals: security/ITFundamnetal/01-fundamental-it-skills.md
+          - Operating Systems: security/OperatingSystems/02-operating-systems.md
+          - Networking: security/Networking/03-networking-knowledge.md
+      - Core Skills:
+          - OWASP: security-testing/owasp/index.md
+          - API Security: security-testing/api-security/index.md
+          - VAPT: security-testing/vapt/index.md
+      - Career:
+          - Certifications: certifications/index.md
+          - Cybersecurity Projects: security/PracticeTracking/Cybersecurity_Projects_Portfolio.md
+
   - 🚀 DevSecOps:
-      - Theory / Notes:
-        - DevSecOps Intro: devsecops/devsecops-intro.md
-      - Resources:
-        - CI/CD Security: devsecops/cicd-security.md
+      - Basics:
+          - DevSecOps Intro: devsecops/devsecops-intro.md
+          - CI/CD Security: devsecops/cicd-security.md
+      - Cloud & Security:
+          - Cloud Security: devsecops/cloud/index.md
+          - DevSecOps Notes: devsecops/basics/index.md
+
   - 💼 Interview Questions:
-      - Manual & QA:
-        - Manual Testing Interview Questions: interviews/manual-testing-interview.md
-        - QA Interview: interviews/qa-interview.md
-      - Automation & API:
-        - Automation Interview: interviews/automation-interview.md
-        - API Testing & Rest Assured: interviews/api-rest-assured-interview.md
-        - SDET API Testing Interview Guide: interviews/SDET_API_Testing_Interview_Guide_Java_RestAssured_Playwright_Python.md
-      - AI & SDET:
-        - AI QA / SDET Interview Prep: interviews/AI-QA-SDET-Interview-Prep.md
-      - Coding & SQL:
-        - Python Coding Interview Programs for SDET: interviews/Python_Coding_Interview_Programs_For_SDET.md
-        - SDET Java Coding Interview Preparation: interviews/SDET_Java_Coding_Interview_Preparation.md
-        - SDET QA & SQL Interview Preparation: interviews/SDET_QA_SQL_Interview_Preparation_Guide.md
+      - Manual Testing:
+          - Easy Questions: interview-questions/manual-testing/easy-questions/index.md
+          - Medium Questions: interview-questions/manual-testing/medium-questions/index.md
+          - Hard Questions: interview-questions/manual-testing/hard-questions/index.md
+      - API Testing:
+          - REST API: interview-questions/api-testing/rest-api/index.md
+          - FastAPI: interview-questions/api-testing/fastapi/index.md
+          - GraphQL: interview-questions/api-testing/graphql/index.md
+      - Playwright:
+          - Basic: interview-questions/playwright/basic/index.md
+          - Advanced: interview-questions/playwright/advanced/index.md
+          - Framework: interview-questions/playwright/framework/index.md
+      - Python:
+          - Basic Coding: interview-questions/python/basic-coding/index.md
+          - String Programs: interview-questions/python/string-programs/index.md
+          - Interview Programs: interview-questions/python/interview-programs/index.md
+      - Java:
+          - Core Java: interview-questions/java/core-java/index.md
+          - Collections: interview-questions/java/collections/index.md
+          - Interview Questions: interview-questions/java/interview-questions/index.md
+      - SQL:
+          - Basic SQL: interview-questions/sql/basic-sql/index.md
+          - Joins: interview-questions/sql/joins/index.md
+          - Scenarios: interview-questions/sql/scenarios/index.md
+      - AI Testing:
+          - Prompt Testing: interview-questions/ai-testing/prompt-testing/index.md
+          - LLM Testing: interview-questions/ai-testing/llm-testing/index.md
+          - AI Bug Scenarios: interview-questions/ai-testing/ai-bug-scenarios/index.md
+      - Security Testing:
+          - OWASP: interview-questions/security-testing/owasp/index.md
+          - API Security: interview-questions/security-testing/api-security/index.md
+          - VAPT: interview-questions/security-testing/vapt/index.md
+      - Career Prep:
+          - General Interview Roadmap: interviews/qa-interview.md
+          - SDET Guide: interviews/SDET_API_Testing_Interview_Guide_Java_RestAssured_Playwright_Python.md
+          - SDET QA & SQL Interview Preparation: interviews/SDET_QA_SQL_Interview_Preparation_Guide.md
+
   - 💼 Jobs:
       - UAE Jobs:
-        - UAE Jobs: jobs/uae-jobs/uae-jobs.md
+          - UAE Jobs: jobs/uae-jobs/uae-jobs.md
       - Direct Apply Company Links:
-        - Direct Apply Company Links: jobs/direct-apply/direct-apply.md
+          - Direct Apply Company Links: jobs/direct-apply/direct-apply.md
       - Remote Company Jobs:
-        - Remote Company Jobs: jobs/remote/remote.md
+          - Remote Company Jobs: jobs/remote/remote.md
       - Recruitment & Tech Companies:
-        - Recruitment & Tech Companies: jobs/tech-companies-and-agencies/tech-companies-and-agencies.md
+          - Recruitment & Tech Companies: jobs/tech-companies-and-agencies/tech-companies-and-agencies.md
       - All Good Companies:
-        - All Good Companies: jobs/all-good-companies/allGoodCompnay.md
+          - All Good Companies: jobs/all-good-companies/allGoodCompnay.md
       - LinkedIn & Career Pages:
-        - LinkedIn & Career Pages: jobs/company-linkedin-careers/company_linkedin_careers.md
+          - LinkedIn & Career Pages: jobs/company-linkedin-careers/company_linkedin_careers.md
+
   - 📚 Resources:
       - Learning & Career:
-        - Learning Path: resources/learning-path.md
-        - Best Free AI Courses: resources/ai-courses.md
-        - Free Certifications: resources/free-certifications.md
+          - Learning Path: resources/learning-path.md
+          - Best Free AI Courses: resources/ai-courses.md
+          - Free Certifications: resources/free-certifications.md
       - Tools & References:
-        - Tools & References: resources/tools-and-references.md
-        - Ruflo AI Agent Orchestration: resources/ruflo.md
-        - Useful Links: resources/useful-links.md
-        - Tools (Paid vs Free): resources/tools.md
-        - CMS & Architecture:
-          - Custom Blog CMS Requirements: resources/custom-cms-requirements.md
+          - Tools & References: resources/tools-and-references.md
+          - Ruflo AI Agent Orchestration: resources/ruflo.md
+          - Useful Links: resources/useful-links.md
+          - Tools (Paid vs Free): resources/tools.md
+          - CMS & Architecture:
+              - Custom Blog CMS Requirements: resources/custom-cms-requirements.md
+
   - 💬 Contact Us: contact.md
